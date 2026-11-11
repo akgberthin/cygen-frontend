@@ -2,13 +2,14 @@
 FROM node:20-alpine AS build
 WORKDIR /app
 COPY frontend/package.json ./
-RUN npm install --legacy-peer-deps --no-audit --no-fund
+# The project pins transitive versions with yarn's `resolutions`, so it must be installed with yarn (not npm).
+RUN yarn install --network-timeout 600000 --non-interactive
 COPY frontend/ ./
 ARG REACT_APP_BACKEND_URL
 ARG REACT_APP_APPLY_URL=
 ENV REACT_APP_BACKEND_URL=$REACT_APP_BACKEND_URL \
     REACT_APP_APPLY_URL=$REACT_APP_APPLY_URL
-RUN npm run build
+RUN yarn build
 
 FROM caddy:2-alpine
 COPY --from=build /app/build /srv
