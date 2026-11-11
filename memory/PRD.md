@@ -76,7 +76,7 @@ Build the public marketing website for CYGEN Equities (cygenequities.com), an eq
 ## Implemented (2026-10-29, origination page + AI concierge)
 - Apply buttons no longer fall back to the contact page: they open a real origination page at /{lang}/apply (?path=purchase|refinance preselects the path card; REACT_APP_APPLY_URL still overrides if set).
 - The application is a 3-step animated wizard (path → home details with path-specific fields → contact + review), stored via POST /api/applications (validation, honeypot, IP rate limit, webhook forwarding) and listed in /admin with CSV export.
-- CYGEN concierge: streaming AI chat docked beside the form (OpenAI gpt-5.4 via Universal Key, SSE with token-by-token replies), aware of the visitor's language, chosen path and current step, with quick-question chips. System prompt enforces CYGEN facts, the banned vocabulary, and no promises of approval or outcomes.
+- CYGEN concierge: streaming AI chat docked beside the form (streamed over SSE, token by token; provider and model set by env), aware of the visitor's language, chosen path and current step, with quick-question chips. System prompt enforces CYGEN facts, the banned vocabulary, and no promises of approval or outcomes.
 - 22 automated tests pass (added application validation/listing and concierge input-validation tests).
 
 ## Implemented (2026-10-29, team categories + rainbow arc)

@@ -65,7 +65,6 @@ mypy==2.4.0
 mypy_extensions==1.1.0
 numpy==2.4.6
 oauthlib==4.0.0
-openai==1.99.9
 opencv-python-headless==5.0.0.93
 packaging==26.3
 pandas==3.0.6
