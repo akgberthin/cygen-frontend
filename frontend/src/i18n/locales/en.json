@@ -1,0 +1,1126 @@
+{
+  "meta": {
+    "home": {
+      "title": "CYGEN Equities — Own the home you live in, through partnership",
+      "description": "CYGEN helps you become the full owner of the home you live in through an equity partnership, not a mortgage. A person reviews every application."
+    },
+    "howItWorks": {
+      "title": "How it works — CYGEN Equities",
+      "description": "From application to full ownership: apply, review by a person, appraisal, structuring, closing, active partnership and equity completed."
+    },
+    "refinance": {
+      "title": "Bring my current home — CYGEN Equities",
+      "description": "Already own and live in your home? CYGEN settles the existing financing, places the home in a trust or SPV, and you start with the equity it already holds."
+    },
+    "limitedPartners": {
+      "title": "For Limited Partners — CYGEN Equities",
+      "description": "What it means to be the Limited Partner: live in your home, build equity every month, and reach full ownership."
+    },
+    "brokers": {
+      "title": "For brokers and partners — CYGEN Equities",
+      "description": "Offer your clients an equity partnership alongside the products you already know. A person at CYGEN reviews every application."
+    },
+    "workshops": {
+      "title": "Workshops — CYGEN Equities",
+      "description": "Free small-group sessions about equity partnerships, the Equity Payment, and bringing your current home. Register online."
+    },
+    "faq": {
+      "title": "FAQ — CYGEN Equities",
+      "description": "Answers about the partnership, the Equity Payment, the COP, Payment Halt, Reversed Equity, and how decisions are made."
+    },
+    "about": {
+      "title": "About — CYGEN Equities",
+      "description": "Why CYGEN exists: so the person who lives in a home can become its full owner, through a partnership rather than a mortgage."
+    },
+    "team": {
+      "title": "Our team — CYGEN Equities",
+      "description": "Meet the people who review every application, structure each partnership, and support Limited Partners at CYGEN."
+    },
+    "philosophy": {
+      "title": "Our philosophy — CYGEN Equities",
+      "description": "Five beliefs behind every CYGEN partnership: ownership over debt, plain words, human decisions, alignment, and calm in hard moments."
+    },
+    "impact": {
+      "title": "Social impact — CYGEN Equities",
+      "description": "How partnership-based home ownership can widen access, educate in plain language, and strengthen communities — without invented numbers."
+    },
+    "contact": {
+      "title": "Contact — CYGEN Equities",
+      "description": "Tell us about yourself and which path you are considering. A person at CYGEN will read your message and reply."
+    },
+    "apply": {
+      "title": "Start your application — CYGEN Equities",
+      "description": "Three short steps with the CYGEN concierge beside you. A person reviews every application; nothing is decided by software alone."
+    },
+    "legal": {
+      "title": "Legal — CYGEN Equities",
+      "description": "Draft disclosures, privacy notice, terms of use and accessibility statement for CYGEN Equities. Draft — counsel to confirm."
+    },
+    "resources": {
+      "title": "Resources & events — CYGEN Equities",
+      "description": "Guides, the comparison calculator and the calendar of CYGEN seminars, webinars and workshops — times, places, online and in person."
+    }
+  },
+  "common": {
+    "apply": "Apply",
+    "learnMore": "Learn more",
+    "skipToContent": "Skip to content",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "languageLabel": "Language",
+    "themeLabel": "Theme",
+    "themeSystem": "System",
+    "themeDark": "Dark",
+    "themeLight": "Light",
+    "illustrative": "Illustrative",
+    "required": "required",
+    "optional": "optional",
+    "sending": "Sending…",
+    "draftBadge": "Draft — counsel to confirm",
+    "spanishReviewNote": "Spanish text is awaiting native-speaker review.",
+    "footerDisclosure": "CYGEN is an equity partnership program, not a mortgage product. Figures are illustrative. A person at CYGEN reviews every application.",
+    "sampleNote": "All content on this site is sample content for review.",
+    "copyright": "© 2026 CYGEN Equities. All rights reserved.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorContactRequired": "Please give us an email address or a phone number.",
+    "errorEmailInvalid": "Please enter a valid email address.",
+    "errorNameRequired": "Please enter your name.",
+    "errorConsentRequired": "Please confirm we may contact you.",
+    "errorRateLimited": "Too many attempts. Please wait a few minutes and try again.",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you are looking for does not exist.",
+    "notFoundCta": "Back to home",
+    "errorFirstNameRequired": "Enter your first name.",
+    "errorLastNameRequired": "Enter your last name.",
+    "errorEmailRequired": "Enter your email.",
+    "errorPhoneRequired": "Enter a phone number we can reach you on.",
+    "errorAddressRequired": "Enter your home address."
+  },
+  "nav": {
+    "home": "Home",
+    "howItWorks": "How it works",
+    "refinance": "Refinance",
+    "limitedPartners": "For Limited Partners",
+    "brokers": "For brokers",
+    "workshops": "Workshops",
+    "faq": "FAQ",
+    "about": "About",
+    "team": "Our team",
+    "philosophy": "Our philosophy",
+    "impact": "Social impact",
+    "contact": "Contact",
+    "legal": "Legal",
+    "apply": "Apply",
+    "resources": "Resources",
+    "workshopsSeminars": "Workshops & seminars",
+    "sections": {
+      "company": "Company",
+      "learn": "Learn",
+      "reach": "Reach us"
+    },
+    "sectionDesc": {
+      "company": "Who we are and how we work.",
+      "learn": "Guides, events and tools.",
+      "reach": "Talk to a person at CYGEN."
+    }
+  },
+  "navDesc": {
+    "about": "Who we are and why CYGEN exists",
+    "team": "The people behind every decision",
+    "philosophy": "The beliefs under the structure",
+    "impact": "What partnership ownership can change",
+    "contact": "Write to us — a person answers",
+    "resources": "Guides, the calculator and the calendar of our next events.",
+    "workshopsSeminars": "Reserve a seat in a live workshop, webinar or seminar."
+  },
+  "footer": {
+    "explore": "Explore",
+    "company": "Company",
+    "legalHeading": "Legal",
+    "tagline": "Equity partnership for the home you live in."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "An equity partnership, not a mortgage",
+      "title": "Become the full owner of the home you live in.",
+      "subtitle": "You live in the home as the Limited Partner. CYGEN's fund joins you as the General Partner and supplies the capital. The home is held in a trust or SPV until your equity reaches 100%.",
+      "ctaBuy": "Buy a home with CYGEN",
+      "ctaBring": "Bring my current home",
+      "note": "Figures on this site are illustrative. A person at CYGEN reviews every application."
+    },
+    "slides": [
+      {
+        "eyebrow": "An equity partnership, not a mortgage",
+        "title": "Welcome home — to real ownership.",
+        "text": "A warmer way to own. You live in the home as the Limited Partner; CYGEN's fund stands beside you as the General Partner and supplies the capital — until the home is 100% yours.",
+        "cta": "Explore the two paths"
+      },
+      {
+        "eyebrow": "Path one — buy with CYGEN",
+        "title": "Found the one? Let's make it yours.",
+        "text": "Choose the home you want to wake up in and decide your starting share. CYGEN's fund supplies the rest of the capital, and every monthly Equity Payment moves you closer to full ownership.",
+        "cta": "Start with a new home"
+      },
+      {
+        "eyebrow": "Path two — bring your home",
+        "title": "Already home? Let's start from there.",
+        "text": "You don't have to leave the home you love to change how you own it. CYGEN settles the existing financing, and you begin with the equity your home already holds.",
+        "cta": "Start with my home"
+      }
+    ],
+    "slideAlts": [
+      "A person sitting on the sunlit steps of their front porch",
+      "The warm entrance of a family home with greenery",
+      "A new homeowner holding the keys at their front door"
+    ],
+    "slider": {
+      "prev": "Previous slide",
+      "next": "Next slide",
+      "goTo": "Go to slide"
+    },
+    "engine": {
+      "title": "The equity engine",
+      "subtitle": "One monthly payment, two jobs.",
+      "points": [
+        "Your Equity Payment is sized once, at the start of the partnership",
+        "Part covers the COP — the cost of capital, a fixed rate; the rest builds your equity",
+        "Every six months the minimum payment is revised from the capital still outstanding"
+      ],
+      "splitTitle": "Where each Equity Payment goes",
+      "copPart": "COP — the fund's fixed share",
+      "equityPart": "The rest builds your equity",
+      "chartTitle": "Your equity building over the first year",
+      "revisionMark": "Six-month revision",
+      "monthsLabel": "Months",
+      "note": "Illustrative — not a projection or a promise of any outcome."
+    },
+    "market": {
+      "title": "Built for today's housing market",
+      "subtitle": "Two realities shape housing right now — and each one has a CYGEN path.",
+      "m1": {
+        "title": "The capital gap",
+        "text": "Many households can carry a monthly payment but cannot assemble the upfront capital a purchase demands. A partnership supplies that capital as co-ownership, not as debt."
+      },
+      "m2": {
+        "title": "Value locked in homes",
+        "text": "People who already own and live in their home often hold most of their wealth inside it. Bringing the home to CYGEN turns that value into starting equity inside a transparent structure — with no cash-out."
+      },
+      "m3": {
+        "title": "A different relationship",
+        "text": "Some people simply do not want to finance a home the conventional way. As Limited Partner you build ownership alongside a General Partner whose success is aligned with yours."
+      },
+      "note": "General market observations — not advice, and not a promise of any outcome."
+    },
+    "paths": {
+      "title": "Two ways to start",
+      "subtitle": "Choose the path that fits you today. You can switch between the two until your application is submitted.",
+      "buy": {
+        "title": "Buy a home with CYGEN",
+        "text": "Pick the home you want to live in and choose your initial equity share. CYGEN's fund supplies the rest of the capital, and the home is held in a trust or SPV while your equity grows toward 100%.",
+        "points": [
+          "You choose the home you will live in",
+          "You choose your initial equity share",
+          "CYGEN's fund supplies the remaining capital",
+          "The home is held in a trust or SPV until you reach 100%"
+        ],
+        "cta": "Start with a new home"
+      },
+      "bring": {
+        "title": "Bring my current home",
+        "text": "Already own and live in your home? CYGEN settles the existing financing from the fund, the home moves into a trust or SPV, and you start with the equity your home already holds — its value minus the amount used to settle the existing financing.",
+        "points": [
+          "Keep living in the home you love",
+          "The fund settles the existing financing",
+          "You start with the equity already in your home",
+          "No cash-out; you pay closing costs from cash"
+        ],
+        "cta": "Start with my home"
+      }
+    },
+    "steps": {
+      "title": "How a partnership works",
+      "subtitle": "Four steps, one goal: your equity at 100%.",
+      "s1": {
+        "title": "Choose your path",
+        "text": "Buy a home with CYGEN, or bring the home you already own and live in."
+      },
+      "s2": {
+        "title": "A person reviews your application",
+        "text": "Every application is read and decided by a person at CYGEN. Nothing is decided by software alone."
+      },
+      "s3": {
+        "title": "The home goes into a trust or SPV",
+        "text": "CYGEN's fund supplies the capital as General Partner. You live in the home as Limited Partner."
+      },
+      "s4": {
+        "title": "Your equity grows every month",
+        "text": "Your Equity Payment is sized once at the start. Part covers the COP — the cost of capital, a fixed rate — and the rest builds your equity."
+      }
+    },
+    "different": {
+      "title": "What makes it different",
+      "d1": {
+        "title": "A partnership, not a debt",
+        "text": "You join as the Limited Partner who lives in the home. CYGEN's fund joins as the General Partner that supplies the capital. You are building ownership, not servicing a debt."
+      },
+      "d2": {
+        "title": "A payment sized once",
+        "text": "Your Equity Payment is set at the start. Every six months the minimum payment is revised from the capital still outstanding — so as your equity grows, the minimum can come down."
+      },
+      "d3": {
+        "title": "Room to breathe",
+        "text": "If life gets hard, a Payment Halt can pause your payments. If the home's value falls, Reversed Equity can occur — the mechanics are agreed with you in writing, up front."
+      },
+      "d4": {
+        "title": "A clear finish line",
+        "text": "There is an exit path if your plans change, and an equity-completion path that ends with you as the full owner of your home."
+      }
+    },
+    "trust": {
+      "title": "Trust and safeguards",
+      "t1": {
+        "title": "Human review, always",
+        "text": "A person at CYGEN reviews every application. Nothing is decided by software alone."
+      },
+      "t2": {
+        "title": "Held in a trust or SPV",
+        "text": "The home is held in an independent trust or SPV until your equity reaches 100%."
+      },
+      "t3": {
+        "title": "Plain-language figures",
+        "text": "Wherever you see numbers on this site, they are illustrative. Your actual structure is set out in your own partnership documents."
+      }
+    },
+    "faqTeaser": {
+      "title": "Questions people ask",
+      "cta": "Read all questions"
+    },
+    "cta": {
+      "title": "Ready to see your path?",
+      "text": "Start with the choice that fits you today — you can switch paths until your application is submitted.",
+      "buy": "Buy a home with CYGEN",
+      "bring": "Bring my current home"
+    },
+    "marquee": [
+      "Real ownership",
+      "Patient capital",
+      "Partnership over pressure",
+      "Equity that grows with you",
+      "Homes, held together",
+      "Community wealth"
+    ],
+    "compare": {
+      "title": "Same home. Different math.",
+      "subtitle": "Slide the numbers to your situation and see how a CYGEN partnership stands next to a traditional mortgage.",
+      "price": "Home price",
+      "share": "Down payment / starting share",
+      "rate": "Example annual percentage",
+      "years": "Mortgage years",
+      "yearsUnit": "years",
+      "monthUnit": "month",
+      "perMo": "/mo",
+      "mortgageTitle": "Traditional mortgage",
+      "cygenTitle": "CYGEN partnership",
+      "downPayment": "Your down payment",
+      "financed": "Financed by the bank",
+      "monthlyFixed": "Fixed monthly payment",
+      "totalPaid": "Total paid",
+      "bankKeeps": "Total interest to the bank",
+      "copTotal": "Total COP (interest equivalent)",
+      "legendHome": "The home itself",
+      "requiredCop": "Required monthly payment (COP only)",
+      "ownershipNow": "Ownership at the end of the projection",
+      "monthsToFull": "Projected months to 100% Equity",
+      "notWithin": "not within the projection",
+      "cadence": "COP adjustment cadence",
+      "cadence6": "Every 6 months (months 7, 13, 19…)",
+      "cadence12": "Every 12 months (months 13, 25, 37…)",
+      "fixedSentence": "Only the COP is required each month. Paying in as much Equity as you can afford is strongly advised: it builds your ownership and lowers your COP at the next adjustment month.",
+      "noEquity1": "This plan builds no Equity: your COP stays at",
+      "noEquity2": "every month, your ownership stays at",
+      "noEquity3": "and there is no end date.",
+      "simTitle": "Additional payments (optional, but strongly advised)",
+      "extraMonthly": "Extra monthly Equity payment",
+      "fromMonth": "from month",
+      "untilMonth": "to month (0 = no end)",
+      "optionalTag": "optional",
+      "quickLabel": "Quick choices:",
+      "quickSuffix": "of the first COP monthly",
+      "oneTimeTitle": "One-time Equity payments",
+      "colMonthOne": "Month",
+      "colAmount": "Amount",
+      "addOneTime": "Add a one-time payment",
+      "maxRowsNote": "Up to 12 rows",
+      "removeAria": "Remove",
+      "tableTitle": "COP at each adjustment month",
+      "colMonth": "Effective month",
+      "colGpBefore": "GP capital before",
+      "colGpAfter": "GP capital after",
+      "colCopBefore": "COP before",
+      "colCopAfter": "COP after",
+      "colChange": "Change",
+      "colEquityWindow": "Equity paid in the window",
+      "moreAdjustments1": "…and",
+      "moreAdjustments2": "more adjustment months",
+      "difference": "Illustrative difference:",
+      "differenceSuffix": "stays with you instead of the bank",
+      "start": "Start with these numbers",
+      "copy": "Copy link to this scenario",
+      "copied": "Link copied",
+      "note": "Illustrative only, not an offer: one adjustable example annual percentage drives both sides (interest on the mortgage, COP on the partnership). The mortgage starts from the price minus your down payment. In the partnership the only required payment is the COP — a simple charge on the General Partner's remaining capital, fixed within each window and re-sized at each adjustment month. Equity is optional but strongly advised. Your actual figures are set in your personal offer."
+    }
+  },
+  "how": {
+    "title": "How it works",
+    "intro": "From your first enquiry to full ownership — every stage, in plain language.",
+    "stagesTitle": "The stages",
+    "stages": [
+      {
+        "k": "apply",
+        "title": "Apply",
+        "text": "Tell us which path you want — buy a home with CYGEN or bring your current home — and share the essentials. This form never asks for government ID numbers, account numbers, or income details."
+      },
+      {
+        "k": "review",
+        "title": "Review by a person",
+        "text": "A person at CYGEN reviews every application. Software can organise the file; it never makes the decision."
+      },
+      {
+        "k": "appraisal",
+        "title": "Appraisal",
+        "text": "An independent appraisal establishes the home's value. This anchors the capital split between you and the fund."
+      },
+      {
+        "k": "structuring",
+        "title": "Structuring",
+        "text": "Together we set your initial equity share, size your Equity Payment once, and fix the COP — the cost of capital, a fixed rate that does not change."
+      },
+      {
+        "k": "closing",
+        "title": "Closing",
+        "text": "The home is placed in a trust or SPV. You pay closing costs from your own cash; CYGEN does not fund them."
+      },
+      {
+        "k": "active",
+        "title": "Active partnership",
+        "text": "You live in the home and make your monthly Equity Payment. Part covers the COP; the rest builds your equity. Every six months the minimum payment is revised from the capital still outstanding."
+      },
+      {
+        "k": "completed",
+        "title": "Equity completed",
+        "text": "When your equity reaches 100%, the home moves out of the trust or SPV and the partnership ends with you as the full owner."
+      }
+    ],
+    "conceptsTitle": "The words we use",
+    "concepts": [
+      {
+        "title": "COP — cost of capital",
+        "text": "A fixed rate that is the fund's share of each Equity Payment. It is set once, at structuring, and it does not change."
+      },
+      {
+        "title": "Equity Payment",
+        "text": "Your monthly payment, sized once at the start. Part covers the COP; the rest builds your equity in the home."
+      },
+      {
+        "title": "Minimum payment",
+        "text": "The floor for your monthly payment. It is revised every six months from the capital still outstanding — not from a schedule written on day one."
+      },
+      {
+        "title": "Payment Halt",
+        "text": "If life gets hard, your payments can pause for a period, on the conditions agreed in your partnership documents."
+      },
+      {
+        "title": "Reversed Equity",
+        "text": "If the home's value falls, Reversed Equity can occur. What happens then is set out in your partnership documents before you sign — no surprises."
+      },
+      {
+        "title": "Exit and completion",
+        "text": "You can exit the partnership early on the agreed path, or stay until your equity reaches 100% and the home is fully yours."
+      }
+    ],
+    "example": {
+      "title": "An illustrative example",
+      "note": "Illustrative only — not an offer, a promise, or a projection of any outcome.",
+      "r1": "Home value",
+      "r2": "Your initial equity share (20%)",
+      "r3": "Capital supplied by the fund",
+      "r4": "COP",
+      "r4v": "A fixed rate, set once",
+      "r5": "Equity Payment",
+      "r5v": "Sized once; part COP, part equity"
+    },
+    "cta": {
+      "title": "See which path fits you",
+      "text": "Two ways to start. One person reviewing your application.",
+      "buy": "Buy a home with CYGEN",
+      "bring": "Bring my current home"
+    }
+  },
+  "refi": {
+    "title": "Bring my current home",
+    "intro": "You already own and live in your home. A CYGEN partnership settles the existing financing and turns the value you have built into your starting equity.",
+    "youBring": {
+      "title": "What you bring",
+      "items": [
+        "A home you own and live in",
+        "Existing financing you want to settle",
+        "Closing costs, paid from your own cash",
+        "The equity your home already holds"
+      ]
+    },
+    "cygenDoes": {
+      "title": "What CYGEN does",
+      "items": [
+        "Settles the existing financing from the fund",
+        "Places the home in a trust or SPV",
+        "Credits your starting equity — the home's value minus the amount used to settle the existing financing",
+        "Sizes your Equity Payment once, with a fixed COP"
+      ]
+    },
+    "notOffered": {
+      "title": "What is not offered",
+      "items": [
+        "No cash-out — the fund's capital settles the existing financing, and nothing more",
+        "No funding of closing costs — you pay them from your own cash"
+      ],
+      "note": "These limits keep the partnership simple, transparent, and focused on one goal: your full ownership."
+    },
+    "steps": {
+      "title": "The steps",
+      "items": [
+        "Tell us about your home and the financing you want to settle",
+        "A person at CYGEN reviews your application",
+        "An independent appraisal establishes your home's value",
+        "Your partnership is structured: starting equity, Equity Payment, COP",
+        "The fund settles the existing financing and the home moves into a trust or SPV",
+        "Your active partnership begins — you live in your home and build equity"
+      ]
+    },
+    "whoDecides": {
+      "title": "Who decides",
+      "text": "A person at CYGEN reviews every application — including yours. Nothing is decided by software alone, and submitting an application never guarantees acceptance."
+    },
+    "cta": {
+      "title": "Talk to us about your home",
+      "text": "Tell us about your situation and a person will reply.",
+      "button": "Contact CYGEN"
+    }
+  },
+  "lp": {
+    "title": "For Limited Partners",
+    "intro": "The Limited Partner is the person who lives in the home and builds equity toward full ownership. This page gathers what matters most to you.",
+    "role": {
+      "title": "Your role in the partnership",
+      "text": "You live in the home and care for it as your own — because it is becoming your own. CYGEN's fund is the General Partner: it supplies the capital and handles the partnership's administration. The home is held in a trust or SPV until your equity reaches 100%."
+    },
+    "payment": {
+      "title": "Your Equity Payment",
+      "text": "One monthly payment, sized once at the start of the partnership.",
+      "p1": "Part of each payment covers the COP — the cost of capital, a fixed rate.",
+      "p2": "The rest builds your equity in the home, month after month.",
+      "p3": "Every six months the minimum payment is revised from the capital still outstanding. As your equity grows, the minimum can come down."
+    },
+    "safeguards": {
+      "title": "If life changes",
+      "s1": {
+        "title": "Payment Halt",
+        "text": "If life gets hard — a job change, an illness, a family emergency — your payments can pause for a period, on the conditions agreed in your documents."
+      },
+      "s2": {
+        "title": "Reversed Equity",
+        "text": "If the home's value falls, Reversed Equity can occur. The mechanics are set out in writing before you sign, so you know where you stand in good times and bad."
+      }
+    },
+    "milestones": {
+      "title": "Two ways forward",
+      "m1": {
+        "title": "The exit path",
+        "text": "If your plans change, there is an agreed path to leave the partnership, set out in your documents."
+      },
+      "m2": {
+        "title": "The completion path",
+        "text": "Stay the course until your equity reaches 100% — the home leaves the trust or SPV and it is fully yours."
+      }
+    },
+    "cta": {
+      "title": "Questions about being a Limited Partner?",
+      "text": "Read the FAQ or write to us — a person will reply.",
+      "faq": "Read the FAQ",
+      "contact": "Contact us"
+    }
+  },
+  "brokers": {
+    "title": "For brokers and partners",
+    "intro": "Work with CYGEN to offer your clients an equity partnership alongside the products you already know.",
+    "who": {
+      "title": "Who we work with",
+      "items": [
+        "Real-estate brokers and buyer's agents",
+        "Independent financial and housing advisors",
+        "Community organisations that support homeownership"
+      ]
+    },
+    "how": {
+      "title": "How it works for you",
+      "items": [
+        "Introduce a client who fits one of the two paths",
+        "We take it from there — and keep you informed",
+        "A person at CYGEN reviews every application; nothing is decided by software alone"
+      ]
+    },
+    "standards": {
+      "title": "The standards we keep",
+      "items": [
+        "We never promise approval, rates, savings, or outcomes",
+        "Every figure you show a client is marked illustrative",
+        "Your client's consent comes before any contact"
+      ]
+    },
+    "cta": {
+      "title": "Start the conversation",
+      "text": "Join a broker workshop or write to us directly.",
+      "workshops": "See workshops",
+      "contact": "Contact us"
+    }
+  },
+  "workshops": {
+    "title": "Workshops",
+    "intro": "Free, small-group online sessions. This is a sample schedule shown for review.",
+    "dateLabel": "Date",
+    "timeLabel": "Time",
+    "modeLabel": "Format",
+    "modeOnline": "Online",
+    "durationLabel": "minutes",
+    "spotsLeft": "places left",
+    "full": "This workshop is full",
+    "items": {
+      "equity-payment-basics": {
+        "title": "Understanding the Equity Payment",
+        "desc": "How the payment is sized once, what the COP is, and why the minimum payment is revised every six months."
+      },
+      "bring-your-home": {
+        "title": "Bring my current home, explained",
+        "desc": "How settling the existing financing works, what starting equity means, and which costs you pay from cash."
+      },
+      "brokers-intro": {
+        "title": "For brokers: introducing CYGEN",
+        "desc": "The partnership model, the two paths, and how to talk about them with clients in plain words."
+      },
+      "partner-seminar-houston": {
+        "title": "CYGEN partner seminar — Houston",
+        "desc": "An in-person evening on the partnership model: equity, the COP, the trust or SPV, and your questions answered live."
+      }
+    },
+    "form": {
+      "title": "Register for a workshop",
+      "workshopLabel": "Workshop",
+      "nameLabel": "Full name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "languageLabel": "Preferred language",
+      "submit": "Register",
+      "success": "You are registered. We will send the details to your email.",
+      "error": "We could not save your registration. Please try again."
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "intro": "The essentials of the CYGEN partnership, in plain language.",
+    "items": [
+      {
+        "q": "Is CYGEN a mortgage?",
+        "a": "No. CYGEN is an equity partnership program. You are the Limited Partner who lives in the home; CYGEN's fund is the General Partner that supplies the capital. The home is held in a trust or SPV until your equity reaches 100%."
+      },
+      {
+        "q": "Who owns the home during the partnership?",
+        "a": "The home is held in an independent trust or SPV. Inside that structure, you and the fund each hold an equity share. When your share reaches 100%, the home moves out of the structure and is fully yours."
+      },
+      {
+        "q": "What is the COP?",
+        "a": "COP stands for cost of capital. It is a fixed rate — the fund's share of each Equity Payment — set once at structuring and never changed afterwards."
+      },
+      {
+        "q": "How is my Equity Payment set?",
+        "a": "Your Equity Payment is sized once, at the start of the partnership, from the capital the fund supplies and the fixed COP. Part of each payment covers the COP; the rest builds your equity."
+      },
+      {
+        "q": "Why does the minimum payment change every six months?",
+        "a": "The minimum payment is revised from the capital still outstanding, not from a fixed schedule. As your equity grows and the outstanding capital shrinks, the minimum can come down."
+      },
+      {
+        "q": "What if I cannot pay for a while?",
+        "a": "If life gets hard, a Payment Halt can pause your payments for a period, on the conditions agreed in your partnership documents. Talk to us early — a person handles these conversations, not software."
+      },
+      {
+        "q": "What happens if my home's value falls?",
+        "a": "Reversed Equity can occur. What that means for you and for the fund is set out in your partnership documents before you sign, so there are no surprises later."
+      },
+      {
+        "q": "Can I leave the partnership early?",
+        "a": "Yes. There is an agreed exit path, described in your documents. And if you stay, the equity-completion path ends with you as the full owner of your home."
+      },
+      {
+        "q": "Who decides whether my application is accepted?",
+        "a": "A person at CYGEN reviews every application. Nothing is decided by software alone, and submitting an application never guarantees acceptance."
+      },
+      {
+        "q": "What is the difference between buying with CYGEN and bringing my home?",
+        "a": "Buying with CYGEN means you pick a home and an initial equity share, and the fund supplies the rest. Bringing your home means the fund settles the existing financing, and you start with the equity your home already holds."
+      },
+      {
+        "q": "What costs do I pay at the start?",
+        "a": "You pay the closing costs from your own cash. CYGEN does not fund closing costs, and cash-out is not offered on either path."
+      },
+      {
+        "q": "Can I switch between the two paths?",
+        "a": "Yes. You can switch between buying with CYGEN and bringing your current home at any point until your application is submitted."
+      },
+      {
+        "q": "Do you promise approval or particular figures?",
+        "a": "No. We never promise approval, rates, savings, or outcomes. Every figure on this site is illustrative; your actual structure is set out in your own partnership documents."
+      },
+      {
+        "q": "What information will you ask me for?",
+        "a": "Our forms ask only for your contact details and which path you are considering. We never ask for government ID numbers, account numbers, or income details through this website."
+      }
+    ]
+  },
+  "about": {
+    "title": "About CYGEN",
+    "p1": "CYGEN Equities exists so that the person who lives in a home can become its full owner — through a partnership, not through a mortgage.",
+    "p2": "In every CYGEN partnership the roles are clear. You are the Limited Partner: you live in the home and build equity. CYGEN's fund is the General Partner: it supplies the capital. The home is held in a trust or SPV until your equity reaches 100%.",
+    "p3": "We believe decisions about someone's home deserve human judgment. A person at CYGEN reviews every application — nothing is decided by software alone.",
+    "principlesTitle": "What we hold ourselves to",
+    "principles": [
+      {
+        "title": "Clarity",
+        "text": "Plain words, figures always marked illustrative, and documents you can actually read."
+      },
+      {
+        "title": "Human judgment",
+        "text": "Every application is reviewed by a person. Every difficult conversation happens with a person."
+      },
+      {
+        "title": "Alignment",
+        "text": "The partnership succeeds when you reach 100% — that is the outcome the structure is built around."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Tell us a little about yourself and which path you are considering. A person at CYGEN will read your message and reply.",
+    "neverAsk": "This form never asks for government ID numbers, account numbers, or income details.",
+    "form": {
+      "nameLabel": "Full name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "contactNote": "An email or a phone number is enough — one of the two.",
+      "languageLabel": "Preferred language",
+      "pathLabel": "Which path are you considering?",
+      "pathPurchase": "Buy a home with CYGEN",
+      "pathRefinance": "Bring my current home",
+      "pathUnsure": "Not sure yet",
+      "messageLabel": "Your message",
+      "messagePlaceholder": "Tell us about your situation in your own words.",
+      "consentLabel": "I agree that CYGEN may contact me about my enquiry.",
+      "submit": "Send message",
+      "success": "Thank you — your message has been received. A person at CYGEN will read it and reply.",
+      "error": "We could not send your message. Please try again.",
+      "firstNameLabel": "First name",
+      "lastNameLabel": "Last name",
+      "phoneLabelRequired": "Phone",
+      "addressLabel": "Home address"
+    }
+  },
+  "legal": {
+    "title": "Legal",
+    "intro": "These documents are drafts prepared for review. Each one is marked accordingly.",
+    "disclosures": {
+      "title": "Disclosures",
+      "paragraphs": [
+        "CYGEN is an equity partnership program, not a mortgage product. In a CYGEN partnership, the person who lives in the home is the Limited Partner and CYGEN's fund is the General Partner. The home is held in a trust or SPV until the Limited Partner's equity reaches 100%.",
+        "All figures on this website are illustrative. They are not an offer, a promise, or a projection of any outcome. The structure of any partnership is set out only in that partnership's own documents.",
+        "CYGEN does not promise approval, rates, savings, or outcomes. A person at CYGEN reviews every application; nothing is decided by software alone. Submitting an application does not guarantee acceptance.",
+        "Home values can rise and fall. If a home's value falls, Reversed Equity can occur. Payment Halt, Reversed Equity, the exit path and the completion path are governed by each partnership's documents, which you should read carefully before signing.",
+        "Nothing on this website is legal, tax, or financial advice. Please consult your own advisors."
+      ]
+    },
+    "privacy": {
+      "title": "Privacy notice",
+      "paragraphs": [
+        "We collect only the details you give us through our forms: your name, your email address or phone number, your preferred language, the path you are considering, and your message. For workshop registrations we also record which session you chose.",
+        "We use these details to reply to your enquiry and to manage workshop registrations. We do not sell your details, and we share them only with the service providers who operate this website, under confidentiality obligations.",
+        "Our forms never ask for government ID numbers, account numbers, or income details. Please do not send us such information through this website.",
+        "You may ask us at any time to see, correct, or delete the details we hold about you by writing through the contact form.",
+        "This notice is a draft and will be replaced by a full privacy policy reviewed by counsel."
+      ]
+    },
+    "terms": {
+      "title": "Terms of use",
+      "paragraphs": [
+        "This website is provided by CYGEN Equities for general information. By using it you accept these terms of use.",
+        "The content of this website is informational only. It is not an offer, an invitation, or a commitment of any kind, and it does not create any partnership or other relationship.",
+        "All text, graphics, and the CYGEN wordmark on this site belong to CYGEN Equities. You may not reproduce them without written permission.",
+        "This website may link to other sites. We are not responsible for their content.",
+        "We may change these terms of use at any time; the version published here applies. Governing law and jurisdiction will be confirmed by counsel."
+      ]
+    },
+    "accessibility": {
+      "title": "Accessibility statement",
+      "paragraphs": [
+        "We want everyone to be able to use this website. It is built to meet WCAG 2.2 level AA: text contrast of at least 4.5:1, visible focus indicators, keyboard-operable menus and accordions, semantic structure with one main heading per page, and respect for reduced-motion settings.",
+        "The site works in English and Spanish, and in dark and light themes that both meet the same contrast standard.",
+        "If anything on this site is hard for you to use, please tell us through the contact form. A person will read your message and we will fix what we can.",
+        "This statement is a draft and will be reviewed by counsel."
+      ]
+    }
+  },
+  "apply": {
+    "title": "Start your application",
+    "intro": "Three short steps, with the concierge beside you. A person at CYGEN reviews every application — nothing is decided by software alone.",
+    "step1": "Your path",
+    "step2": "The home",
+    "step3": "You",
+    "pathQ": "Which path are you starting with?",
+    "switchNote": "You can switch between the two paths until the application is submitted.",
+    "pathPurchase": "Buy a home with CYGEN",
+    "pathPurchaseDesc": "Pick a home and an initial equity share; the fund supplies the rest of the capital.",
+    "pathRefinance": "Bring my current home",
+    "pathRefinanceDesc": "Settle the existing financing and start with the equity your home already holds.",
+    "city": "City or area of the home",
+    "homeValue": "Estimated home value",
+    "homeValueNote": "A best guess is fine — an independent appraisal sets the real figure later.",
+    "existing": "Amount needed to settle the existing financing",
+    "share": "Your initial equity share (%)",
+    "back": "Back",
+    "next": "Continue",
+    "reviewTitle": "Review and send to a person",
+    "reviewNote": "Nothing here is binding. Submitting starts a human review; it never guarantees acceptance.",
+    "submit": "Submit application",
+    "successTitle": "Application received",
+    "successText": "A person at CYGEN will review it personally. We will reach you on the contact details you gave.",
+    "error": "We could not submit your application. Please try again.",
+    "numbers": {
+      "title": "Your numbers",
+      "note": "The concierge sees these illustrative figures from your own calculator run — they are never an offer, approval or quote.",
+      "clear": "Clear",
+      "homeValue": "Home value",
+      "share": "Starting share",
+      "rate": "Annual percentage",
+      "cop": "Required COP (monthly)",
+      "equity": "Extra Equity payment",
+      "completion": "Projected months to 100%",
+      "ownership": "Ownership"
+    },
+    "contactNote": "Correct email, address and phone matter: a person at CYGEN uses exactly these details to reach you about your application."
+  },
+  "concierge": {
+    "title": "CYGEN concierge",
+    "subtitle": "Ask anything while you fill this in.",
+    "welcome": "Welcome! I can explain the two paths, the Equity Payment, the COP, or what happens after you submit. What would you like to know?",
+    "placeholder": "Ask the concierge…",
+    "send": "Send",
+    "thinking": "Thinking…",
+    "error": "The concierge is unavailable right now — the form still works.",
+    "chips": [
+      "Which path fits me?",
+      "What is the COP?",
+      "What happens after I submit?"
+    ],
+    "talkToPerson": "Talk to a person"
+  },
+  "team": {
+    "title": "Our team",
+    "intro": "The people who read every application, structure every partnership, and answer your messages.",
+    "note": "Profiles are placeholders shown for review — real names and photographs arrive with the team.",
+    "pickCategory": "Choose a team to meet its members.",
+    "nameTbd": "Name to be announced",
+    "categories": {
+      "executive": {
+        "label": "Executive leadership",
+        "members": [
+          {
+            "role": "Chief Executive Partner",
+            "focus": "Sets direction and carries final responsibility for every partnership decision."
+          },
+          {
+            "role": "Head of Partnerships",
+            "focus": "Owns the structure of each partnership, from the initial share to completion at 100%."
+          },
+          {
+            "role": "Chief Operating Partner",
+            "focus": "Keeps appraisals, closings, and the trust or SPV machinery running on time."
+          }
+        ]
+      },
+      "marketing": {
+        "label": "Marketing & sales",
+        "members": [
+          {
+            "role": "Head of Marketing",
+            "focus": "Tells the CYGEN story in plain words — and keeps every figure labelled illustrative."
+          },
+          {
+            "role": "Sales Lead",
+            "focus": "Guides future Limited Partners through the two paths before they apply."
+          },
+          {
+            "role": "Community & Content",
+            "focus": "Runs workshops, writes the guides, and answers questions in English and Spanish."
+          }
+        ]
+      },
+      "admin": {
+        "label": "Admin support",
+        "members": [
+          {
+            "role": "Operations & Admin Lead",
+            "focus": "Keeps files, documents, and calendars in order so nothing falls through."
+          },
+          {
+            "role": "Member Services",
+            "focus": "The friendly first reply for Limited Partners — Payment Halt conversations included."
+          },
+          {
+            "role": "Office & Records",
+            "focus": "Maintains the records behind every partnership, accurately and confidentially."
+          }
+        ]
+      },
+      "advisors": {
+        "label": "Advisors",
+        "members": [
+          {
+            "role": "Housing Advisor",
+            "focus": "Brings years of housing practice to how partnerships are structured and reviewed."
+          },
+          {
+            "role": "External Legal Counsel",
+            "focus": "Reviews the partnership documents — the drafts on the Legal page wait on this sign-off."
+          },
+          {
+            "role": "Financial Education Advisor",
+            "focus": "Shapes the workshop curriculum so every concept explains itself."
+          }
+        ]
+      },
+      "investors": {
+        "label": "Investors",
+        "members": [
+          {
+            "role": "Fund Relations",
+            "focus": "The bridge between the fund's investors and the partnerships the fund supplies."
+          },
+          {
+            "role": "Investor Reporting",
+            "focus": "Turns partnership activity into clear, honest reporting for the fund."
+          },
+          {
+            "role": "Impact & Allocation",
+            "focus": "Watches where capital flows and whether it widens access to ownership."
+          }
+        ]
+      }
+    }
+  },
+  "philosophy": {
+    "title": "Our philosophy",
+    "intro": "Five beliefs sit under everything CYGEN builds.",
+    "beliefs": [
+      {
+        "title": "Ownership over debt",
+        "text": "A home should be something you grow into owning, not something you owe on. Partnership aligns everyone around that single finish line."
+      },
+      {
+        "title": "Plain words, always",
+        "text": "If a sentence needs a glossary, we rewrite the sentence. Figures are labelled illustrative, and the real ones live in documents you can actually read."
+      },
+      {
+        "title": "A person decides",
+        "text": "Software can organise a file; it never decides one. Every application, every Payment Halt, every hard conversation gets a person."
+      },
+      {
+        "title": "Aligned to 100%",
+        "text": "The partnership succeeds when the Limited Partner reaches full ownership. Anything that does not serve that outcome does not belong in the structure."
+      },
+      {
+        "title": "Calm in hard moments",
+        "text": "Payment Halt and Reversed Equity exist because life is not a straight line. The rules for hard moments are written before they are needed."
+      }
+    ]
+  },
+  "impact": {
+    "title": "Social impact",
+    "intro": "What partnership-based ownership can change — and how we hold ourselves to it.",
+    "areas": [
+      {
+        "title": "Access to ownership",
+        "text": "The upfront capital gap keeps capable households out of ownership. A partnership exists to close that gap with co-ownership rather than more debt."
+      },
+      {
+        "title": "Education in plain language",
+        "text": "Free workshops, open questions, and vocabulary that explains itself — the Equity Payment, the COP, the six-month revision — so people decide with understanding."
+      },
+      {
+        "title": "Community partnerships",
+        "text": "We work with brokers, advisors, and community organisations that already serve future homeowners, and we keep their clients' consent ahead of any contact."
+      },
+      {
+        "title": "Honest reporting",
+        "text": "We would rather say less and prove it. This page states our direction; results are published only when we can evidence them."
+      }
+    ],
+    "note": "No invented numbers: impact figures appear here only once they are real, reviewed, and dated."
+  },
+  "banners": {
+    "howItWorks": {
+      "alt": "Two people reviewing partnership documents together at a table",
+      "caption": "Every application is read by a person — here is what that journey looks like."
+    },
+    "refinance": {
+      "alt": "A homeowner sitting on the steps of their own front porch",
+      "caption": "The home you already love can be the start of your partnership."
+    },
+    "limitedPartners": {
+      "alt": "A family relaxing together in their living room",
+      "caption": "Live in your home while your equity grows, month by month."
+    },
+    "brokers": {
+      "alt": "Two professionals shaking hands at a meeting",
+      "caption": "Good partnerships begin with a conversation."
+    },
+    "workshops": {
+      "alt": "A small group of people in a workshop session",
+      "caption": "Small groups, plain words, real questions — online."
+    },
+    "about": {
+      "alt": "A diverse group of people in a warm team gathering",
+      "caption": "One belief: the person who lives in a home should be able to own it."
+    },
+    "contact": {
+      "alt": "Two people in a friendly conversation across a table",
+      "caption": "Write to us — a person answers."
+    },
+    "resources": {
+      "alt": "People around a table at a CYGEN community session",
+      "caption": "Photo: sample imagery. Times and places shown are samples until the live calendar is connected."
+    }
+  },
+  "admin": {
+    "title": "Admin",
+    "passwordLabel": "Admin password",
+    "signIn": "Sign in",
+    "wrongPassword": "Wrong password.",
+    "loadError": "Could not load the data.",
+    "signOut": "Sign out",
+    "refresh": "Refresh",
+    "leads": "Leads",
+    "registrations": "Workshop registrations",
+    "applications": "Applications",
+    "exportCsv": "Export CSV",
+    "empty": "Nothing here yet.",
+    "colDate": "Date",
+    "colName": "Name",
+    "colEmail": "Email",
+    "colPhone": "Phone",
+    "colLang": "Language",
+    "colPath": "Path",
+    "colMessage": "Message",
+    "colWorkshop": "Workshop",
+    "colCity": "City",
+    "colValue": "Home value",
+    "colExisting": "Existing financing",
+    "colShare": "Initial share %",
+    "scenarios": "Scenarios",
+    "deliveries": "Lead alerts",
+    "conciergeStats": "Concierge routes",
+    "retention": "Scenario retention",
+    "retentionDays": "Keep scenarios (days)",
+    "save": "Save",
+    "saved": "Saved",
+    "purgeNow": "Purge now",
+    "purged": "scenarios purged",
+    "filterFrom": "From",
+    "filterTo": "To",
+    "filterApply": "Apply filters",
+    "perDay": "Per day",
+    "colPage": "Page",
+    "colSession": "Session",
+    "colFigures": "Figures",
+    "colApplication": "Application",
+    "colScenario": "Scenario",
+    "colEvent": "Event",
+    "colDelivery": "Delivery",
+    "colStatus": "Status",
+    "colAttempts": "Attempts",
+    "colError": "Last error",
+    "resend": "Resend",
+    "webhookConfigured": "Lead webhook configured",
+    "webhookNotConfigured": "webhook not configured",
+    "promptVersion": "Prompt version"
+  },
+  "account": {
+    "title": "Account",
+    "registerTitle": "Open your account",
+    "registerIntro": "Your application details carry over — just set your password and the concierge will lead you through the remaining setup.",
+    "nameLabel": "Full name",
+    "emailLabel": "Email",
+    "passwordLabel": "Password (8+ characters)",
+    "confirmLabel": "Repeat the password",
+    "createAccount": "Create my account",
+    "signIn": "Sign in",
+    "haveAccount": "Already have an account? Sign in",
+    "needAccount": "New here? Open your account",
+    "backHome": "Back to the homepage",
+    "linkedNote": "Your application was received and is linked to this account automatically.",
+    "errorDetails": "Enter your name and a valid email.",
+    "errorPasswordLength": "The password needs at least 8 characters.",
+    "errorPasswordMatch": "The passwords do not match.",
+    "errorEmailTaken": "An account already exists for this email — sign in instead.",
+    "errorInvalidCredentials": "Wrong email or password.",
+    "welcome": "Welcome",
+    "intro": "Your account is open. Complete your profile below — the concierge is right beside you for the remaining steps.",
+    "yourApplication": "Your application",
+    "noApplication": "No application is linked to this account yet.",
+    "completeProfile": "Complete your profile",
+    "completeProfileText": "A person at CYGEN uses these details to reach you about your application.",
+    "phoneLabel": "Phone (optional)",
+    "save": "Save",
+    "saved": "Saved",
+    "signOut": "Sign out",
+    "colPath": "Path"
+  },
+  "resources": {
+    "title": "Resources",
+    "intro": "Guides, tools and events to understand the CYGEN partnership at your own pace — and the calendar of every seminar, webinar and workshop, with time and place, online or in person.",
+    "nextEvent": "Next event",
+    "eventsTitle": "Events calendar",
+    "noEvents": "New events are being scheduled — check back soon.",
+    "online": "Online (link after registration)",
+    "inPerson": "In person",
+    "addToCalendar": "Add to calendar (.ics)",
+    "googleCalendar": "Open in Google Calendar",
+    "registerCta": "Register for a workshop",
+    "type": {
+      "workshop": "Workshop",
+      "webinar": "Webinar",
+      "seminar": "Seminar"
+    },
+    "cardsTitle": "Keep exploring",
+    "cardCta": "Open",
+    "cards": {
+      "how": {
+        "title": "How it works",
+        "desc": "The partnership explained step by step: equity, the COP, the trust or SPV and the path to 100%."
+      },
+      "faq": {
+        "title": "Questions, answered",
+        "desc": "The questions every visitor asks — documents, timing, what happens next — in plain language."
+      },
+      "calc": {
+        "title": "Comparison calculator",
+        "desc": "Set your own numbers and watch the COP fall as your equity grows, next to a traditional mortgage."
+      }
+    }
+  }
+}

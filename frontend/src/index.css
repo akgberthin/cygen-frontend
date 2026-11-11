@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CYGEN brand tokens. Dark is the brand default. Light values mirror the same feel. */
+:root,
+html.dark {
+    color-scheme: dark;
+    --c-background: #07090f;
+    --c-surface: #0d1320;
+    --c-surface2: #111b2e;
+    --c-surface3: #162036;
+    --c-gold: #c9a84c;
+    --c-gold-hover: #b8963e;
+    --c-gold-text: #d8b95a;
+    --c-cream: #edeae0;
+    --c-body: #cdd5de;
+    --c-muted: #a0b1c4;
+    --c-dim: #8094a9;
+    --c-border: rgba(255, 255, 255, 0.1);
+    --c-border-strong: rgba(255, 255, 255, 0.45);
+    --c-green: #2ea87a;
+    --c-blue: #3d8ed4;
+    --c-red: #d05050;
+    --c-danger-text: #e06666;
+    --c-ink: #0a0e18;
+    --c-focus: #c9a84c;
+    --radius: 10px;
+}
+
+html.light {
+    color-scheme: light;
+    --c-background: #ffffff;
+    --c-surface: #ffffff;
+    --c-surface2: #f7f5ef;
+    --c-surface3: #eee9db;
+    --c-gold: #c9a84c;
+    --c-gold-hover: #b8963e;
+    --c-gold-text: #785e19;
+    --c-cream: #0c1220;
+    --c-body: #222d3d;
+    --c-muted: #4a5768;
+    --c-dim: #556172;
+    --c-border: rgba(12, 18, 32, 0.12);
+    --c-border-strong: rgba(12, 18, 32, 0.5);
+    --c-green: #1b7a57;
+    --c-blue: #2b6eb5;
+    --c-red: #b83838;
+    --c-danger-text: #a52f2f;
+    --c-ink: #0a0e18;
+    --c-focus: #785e19;
+}
+
+body {
+    margin: 0;
+    background-color: var(--c-background);
+    color: var(--c-body);
+    font-family: -apple-system, system-ui, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+    color: var(--c-cream);
+}
+
+::selection {
+    background: var(--c-gold);
+    color: var(--c-ink);
+}
+
+:focus-visible {
+    outline: 2px solid var(--c-focus);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+@keyframes cygen-grow {
+    from { transform: scaleY(0); }
+    to { transform: scaleY(1); }
+}
+@keyframes cygen-draw {
+    from { stroke-dashoffset: 620; }
+    to { stroke-dashoffset: 0; }
+}
+@keyframes cygen-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+}
+@keyframes cygen-pulse-ring {
+    0%, 100% { opacity: 0.35; transform: scale(1); }
+    50% { opacity: 0.9; transform: scale(1.06); }
+}
+@keyframes cygen-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.anim-spin-slow {
+    animation: cygen-spin 70s linear infinite;
+}
+
+.anim-bar {
+    transform-box: fill-box;
+    transform-origin: bottom;
+    animation: cygen-grow 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.anim-draw {
+    stroke-dasharray: 620;
+    animation: cygen-draw 1.8s ease-out both;
+}
+.anim-float {
+    animation: cygen-float 8s ease-in-out infinite;
+}
+.anim-pulse {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: cygen-pulse-ring 5s ease-in-out infinite;
+}
+
+@keyframes cygen-marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+.marquee-track {
+    animation: cygen-marquee 52s linear infinite;
+    will-change: transform;
+}
+.marquee:hover .marquee-track {
+    animation-play-state: paused;
+}
+
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center justify-center gap-2 rounded-[7px] px-5 py-2.5 text-sm font-semibold transition-colors;
+        transition-property: color, background-color, border-color, transform, box-shadow;
+        transition-duration: 0.22s;
+    }
+    .btn-primary {
+        @apply btn;
+        background-color: var(--c-gold);
+        color: var(--c-ink);
+    }
+    .btn-primary:hover {
+        background-color: var(--c-gold-hover);
+        transform: translateY(-1px);
+        box-shadow: 0 8px 20px -8px color-mix(in srgb, var(--c-gold) 60%, transparent);
+    }
+    .btn-primary:active {
+        transform: translateY(0);
+    }
+    .btn-outline {
+        @apply btn border;
+        border-color: var(--c-border-strong);
+        color: var(--c-cream);
+        background-color: transparent;
+    }
+    .btn-outline:hover {
+        border-color: var(--c-gold);
+        color: var(--c-gold-text);
+    }
+    .card {
+        background-color: var(--c-surface);
+        border: 1px solid var(--c-border);
+        border-radius: 10px;
+    }
+    .input {
+        @apply w-full rounded-[7px] px-3 py-2.5 text-sm transition-colors;
+        background-color: var(--c-surface);
+        border: 1px solid var(--c-border-strong);
+        color: var(--c-body);
+    }
+    .input::placeholder {
+        color: var(--c-dim);
+    }
+    .input:focus {
+        outline: none;
+        border-color: var(--c-gold);
+        box-shadow: 0 0 0 2px color-mix(in srgb, var(--c-gold) 40%, transparent);
+    }
+    .eyebrow {
+        @apply text-xs font-semibold uppercase tracking-[0.18em];
+        color: var(--c-gold-text);
+    }
+    .field-label {
+        @apply mb-1.5 block text-sm font-medium;
+        color: var(--c-cream);
+    }
+    .field-error {
+        @apply mt-1 text-sm;
+        color: var(--c-danger-text);
+    }
+    .skip-link {
+        @apply absolute left-3 top-3 z-[100] -translate-y-20 rounded-[7px] px-4 py-2 text-sm font-bold transition-transform;
+        background-color: var(--c-gold);
+        color: var(--c-ink);
+    }
+    .skip-link:focus {
+        transform: translateY(0);
+    }
+    .honeypot {
+        position: absolute !important;
+        left: -10000px !important;
+        width: 1px !important;
+        height: 1px !important;
+        overflow: hidden !important;
+    }
+}
+
+@layer base {
+    [data-debug-wrapper="true"] {
+        display: contents !important;
+    }
+    [data-debug-wrapper="true"] > * {
+        margin-left: inherit;
+        margin-right: inherit;
+        margin-top: inherit;
+        margin-bottom: inherit;
+        padding-left: inherit;
+        padding-right: inherit;
+        padding-top: inherit;
+        padding-bottom: inherit;
+        column-gap: inherit;
+        row-gap: inherit;
+        gap: inherit;
+        border-width: inherit;
+        border-style: inherit;
+        border-color: inherit;
+    }
+}

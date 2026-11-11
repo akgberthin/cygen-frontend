@@ -1,0 +1,1126 @@
+{
+  "meta": {
+    "home": {
+      "title": "CYGEN Equities — Sea dueño total de la casa donde vive, en sociedad",
+      "description": "CYGEN le ayuda a convertirse en propietario total de la vivienda donde vive, mediante una sociedad de capital, no una hipoteca. Una persona revisa cada solicitud."
+    },
+    "howItWorks": {
+      "title": "Cómo funciona — CYGEN Equities",
+      "description": "De la solicitud a la propiedad total: solicitud, revisión por una persona, tasación, estructuración, cierre, sociedad activa y participación completada."
+    },
+    "refinance": {
+      "title": "Traer mi casa actual — CYGEN Equities",
+      "description": "¿Ya es dueño de la casa donde vive? CYGEN liquida el financiamiento existente, la casa pasa a un fideicomiso o SPV, y usted comienza con la participación que ya tiene."
+    },
+    "limitedPartners": {
+      "title": "Para Socios Comanditarios — CYGEN Equities",
+      "description": "Qué significa ser el Socio Comanditario: vivir en su casa, aumentar su participación cada mes y llegar a la propiedad total."
+    },
+    "brokers": {
+      "title": "Para corredores y aliados — CYGEN Equities",
+      "description": "Ofrezca a sus clientes una sociedad de capital junto a los productos que ya conoce. Una persona de CYGEN revisa cada solicitud."
+    },
+    "workshops": {
+      "title": "Talleres — CYGEN Equities",
+      "description": "Sesiones gratuitas en grupos pequeños sobre la sociedad de capital, el Pago de Participación y cómo aportar su casa actual. Inscríbase en línea."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes — CYGEN Equities",
+      "description": "Respuestas sobre la sociedad, el Pago de Participación, el COP, la Pausa de Pagos, la Participación Invertida y cómo se toman las decisiones."
+    },
+    "about": {
+      "title": "Acerca de — CYGEN Equities",
+      "description": "Por qué existe CYGEN: para que la persona que vive en una casa pueda llegar a ser su propietaria total, mediante una sociedad y no una hipoteca."
+    },
+    "team": {
+      "title": "Nuestro equipo — CYGEN Equities",
+      "description": "Conozca a las personas que revisan cada solicitud, estructuran cada sociedad y apoyan a los Socios Comanditarios en CYGEN."
+    },
+    "philosophy": {
+      "title": "Nuestra filosofía — CYGEN Equities",
+      "description": "Cinco convicciones detrás de cada sociedad CYGEN: propiedad sobre deuda, palabras simples, decisiones humanas, alineación y calma en los momentos difíciles."
+    },
+    "impact": {
+      "title": "Impacto social — CYGEN Equities",
+      "description": "Cómo la propiedad en sociedad puede ampliar el acceso, educar en lenguaje simple y fortalecer comunidades — sin cifras inventadas."
+    },
+    "contact": {
+      "title": "Contacto — CYGEN Equities",
+      "description": "Cuéntenos sobre usted y qué camino está considerando. Una persona de CYGEN leerá su mensaje y le responderá."
+    },
+    "apply": {
+      "title": "Inicie su solicitud — CYGEN Equities",
+      "description": "Tres pasos cortos con el concierge de CYGEN a su lado. Una persona revisa cada solicitud; nada se decide solo con software."
+    },
+    "legal": {
+      "title": "Legal — CYGEN Equities",
+      "description": "Borradores de divulgaciones, aviso de privacidad, términos de uso y declaración de accesibilidad de CYGEN Equities. Borrador — pendiente de confirmación legal."
+    },
+    "resources": {
+      "title": "Recursos y eventos — CYGEN Equities",
+      "description": "Guías, la calculadora comparativa y el calendario de seminarios, seminarios web y talleres de CYGEN: horarios y lugares, en línea y presenciales."
+    }
+  },
+  "common": {
+    "apply": "Solicitar",
+    "learnMore": "Saber más",
+    "skipToContent": "Saltar al contenido",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "languageLabel": "Idioma",
+    "themeLabel": "Tema",
+    "themeSystem": "Sistema",
+    "themeDark": "Oscuro",
+    "themeLight": "Claro",
+    "illustrative": "Ilustrativo",
+    "required": "obligatorio",
+    "optional": "opcional",
+    "sending": "Enviando…",
+    "draftBadge": "Borrador — pendiente de confirmación legal",
+    "spanishReviewNote": "El texto en español está pendiente de revisión por un hablante nativo.",
+    "footerDisclosure": "CYGEN es un programa de sociedad de capital, no un producto hipotecario. Las cifras son ilustrativas. Una persona de CYGEN revisa cada solicitud.",
+    "sampleNote": "Todo el contenido de este sitio es contenido de muestra para revisión.",
+    "copyright": "© 2026 CYGEN Equities. Todos los derechos reservados.",
+    "errorGeneric": "Algo salió mal. Inténtelo de nuevo.",
+    "errorContactRequired": "Indíquenos un correo electrónico o un número de teléfono.",
+    "errorEmailInvalid": "Escriba una dirección de correo válida.",
+    "errorNameRequired": "Escriba su nombre.",
+    "errorConsentRequired": "Confirme que podemos contactarle.",
+    "errorRateLimited": "Demasiados intentos. Espere unos minutos e inténtelo de nuevo.",
+    "notFoundTitle": "Página no encontrada",
+    "notFoundText": "La página que busca no existe.",
+    "notFoundCta": "Volver al inicio",
+    "errorFirstNameRequired": "Ingrese su nombre.",
+    "errorLastNameRequired": "Ingrese sus apellidos.",
+    "errorEmailRequired": "Ingrese su correo electrónico.",
+    "errorPhoneRequired": "Ingrese un teléfono donde podamos contactarle.",
+    "errorAddressRequired": "Ingrese su domicilio."
+  },
+  "nav": {
+    "home": "Inicio",
+    "howItWorks": "Cómo funciona",
+    "refinance": "Traer mi casa",
+    "limitedPartners": "Para Socios Comanditarios",
+    "brokers": "Para corredores",
+    "workshops": "Talleres",
+    "faq": "Preguntas",
+    "about": "Acerca de",
+    "team": "Nuestro equipo",
+    "philosophy": "Nuestra filosofía",
+    "impact": "Impacto social",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "apply": "Solicitar",
+    "resources": "Recursos",
+    "workshopsSeminars": "Talleres y seminarios",
+    "sections": {
+      "company": "La empresa",
+      "learn": "Aprenda",
+      "reach": "Contáctenos"
+    },
+    "sectionDesc": {
+      "company": "Quiénes somos y cómo trabajamos.",
+      "learn": "Guías, eventos y herramientas.",
+      "reach": "Hable con una persona de CYGEN."
+    }
+  },
+  "navDesc": {
+    "about": "Quiénes somos y por qué existe CYGEN",
+    "team": "Las personas detrás de cada decisión",
+    "philosophy": "Las convicciones bajo la estructura",
+    "impact": "Lo que la propiedad en sociedad puede cambiar",
+    "contact": "Escríbanos — le responde una persona",
+    "resources": "Guías, la calculadora y el calendario de nuestros próximos eventos.",
+    "workshopsSeminars": "Reserve su lugar en un taller, seminario web o seminario en vivo."
+  },
+  "footer": {
+    "explore": "Explorar",
+    "company": "La empresa",
+    "legalHeading": "Legal",
+    "tagline": "Sociedad de capital para la casa donde vive."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Una sociedad de capital, no una hipoteca",
+      "title": "Conviértase en dueño total de la casa donde vive.",
+      "subtitle": "Usted vive en la casa como Socio Comanditario (Limited Partner). El fondo de CYGEN le acompaña como Socio Gestor (General Partner) y aporta el capital. La casa se mantiene en un fideicomiso o SPV hasta que su participación llegue al 100%.",
+      "ctaBuy": "Comprar una casa con CYGEN",
+      "ctaBring": "Traer mi casa actual",
+      "note": "Las cifras de este sitio son ilustrativas. Una persona de CYGEN revisa cada solicitud."
+    },
+    "slides": [
+      {
+        "eyebrow": "Una sociedad de capital, no una hipoteca",
+        "title": "Bienvenido a casa — a ser dueño de verdad.",
+        "text": "Una forma más cálida de ser propietario. Usted vive en la casa como Socio Comanditario; el fondo de CYGEN está a su lado como Socio Gestor y aporta el capital — hasta que la casa sea 100% suya.",
+        "cta": "Explore los dos caminos"
+      },
+      {
+        "eyebrow": "Camino uno — compre con CYGEN",
+        "title": "¿La encontró? Hagámosla suya.",
+        "text": "Elija la casa donde quiere despertar cada día y decida su participación inicial. El fondo de CYGEN aporta el resto del capital, y cada Pago de Participación mensual le acerca a la propiedad total.",
+        "cta": "Empiece con una casa nueva"
+      },
+      {
+        "eyebrow": "Camino dos — traiga su casa",
+        "title": "¿Ya está en su casa? Empecemos desde ahí.",
+        "text": "No tiene que dejar la casa que quiere para cambiar su forma de ser dueño. CYGEN liquida el financiamiento existente y usted comienza con la participación que su casa ya tiene.",
+        "cta": "Empiece con mi casa"
+      }
+    ],
+    "slideAlts": [
+      "Una persona sentada en los escalones soleados de su porche",
+      "La entrada cálida de una casa familiar con plantas",
+      "Un nuevo propietario con las llaves en la puerta de su casa"
+    ],
+    "slider": {
+      "prev": "Diapositiva anterior",
+      "next": "Diapositiva siguiente",
+      "goTo": "Ir a la diapositiva"
+    },
+    "engine": {
+      "title": "El motor de su participación",
+      "subtitle": "Un pago mensual, dos tareas.",
+      "points": [
+        "Su Pago de Participación se define una sola vez, al inicio de la sociedad",
+        "Una parte cubre el COP — el costo del capital, una tasa fija; el resto aumenta su participación",
+        "Cada seis meses el pago mínimo se recalcula según el capital aún pendiente"
+      ],
+      "splitTitle": "A dónde va cada Pago de Participación",
+      "copPart": "COP — la parte fija del fondo",
+      "equityPart": "El resto aumenta su participación",
+      "chartTitle": "Su participación creciendo durante el primer año",
+      "revisionMark": "Revisión semestral",
+      "monthsLabel": "Meses",
+      "note": "Ilustrativo — no es una proyección ni una promesa de ningún resultado."
+    },
+    "market": {
+      "title": "Pensado para el mercado inmobiliario de hoy",
+      "subtitle": "Dos realidades marcan la vivienda en este momento — y cada una tiene un camino CYGEN.",
+      "m1": {
+        "title": "La brecha de capital",
+        "text": "Muchos hogares pueden asumir un pago mensual, pero no reunir el capital inicial que exige una compra. Una sociedad aporta ese capital como copropiedad, no como deuda."
+      },
+      "m2": {
+        "title": "Valor atrapado en la vivienda",
+        "text": "Quienes ya son dueños de la casa donde viven suelen tener gran parte de su patrimonio dentro de ella. Traer la casa a CYGEN convierte ese valor en participación inicial dentro de una estructura transparente — sin retiro de efectivo."
+      },
+      "m3": {
+        "title": "Una relación distinta",
+        "text": "Algunas personas simplemente no quieren financiar una casa de la manera convencional. Como Socio Comanditario, usted construye propiedad junto a un Socio Gestor cuyo éxito está alineado con el suyo."
+      },
+      "note": "Observaciones generales del mercado — no son asesoría ni promesa de ningún resultado."
+    },
+    "paths": {
+      "title": "Dos formas de empezar",
+      "subtitle": "Elija el camino que le convenga hoy. Puede cambiar entre los dos hasta que envíe su solicitud.",
+      "buy": {
+        "title": "Comprar una casa con CYGEN",
+        "text": "Elija la casa donde quiere vivir y decida su participación inicial. El fondo de CYGEN aporta el resto del capital, y la casa se mantiene en un fideicomiso o SPV mientras su participación crece hacia el 100%.",
+        "points": [
+          "Usted elige la casa donde vivirá",
+          "Usted decide su participación inicial",
+          "El fondo de CYGEN aporta el capital restante",
+          "La casa se mantiene en un fideicomiso o SPV hasta que usted llegue al 100%"
+        ],
+        "cta": "Empezar con una casa nueva"
+      },
+      "bring": {
+        "title": "Traer mi casa actual",
+        "text": "¿Ya es dueño de la casa donde vive? CYGEN liquida el financiamiento existente desde el fondo, la casa pasa a un fideicomiso o SPV, y usted comienza con la participación que su casa ya tiene: su valor menos el monto usado para liquidar el financiamiento existente.",
+        "points": [
+          "Siga viviendo en la casa que quiere",
+          "El fondo liquida el financiamiento existente",
+          "Usted comienza con la participación que su casa ya tiene",
+          "Sin retiro de efectivo; los costos de cierre los paga usted en efectivo"
+        ],
+        "cta": "Empezar con mi casa"
+      }
+    },
+    "steps": {
+      "title": "Cómo funciona una sociedad",
+      "subtitle": "Cuatro pasos, una meta: su participación al 100%.",
+      "s1": {
+        "title": "Elija su camino",
+        "text": "Compre una casa con CYGEN o aporte la casa que ya tiene y donde vive."
+      },
+      "s2": {
+        "title": "Una persona revisa su solicitud",
+        "text": "Cada solicitud la lee y la decide una persona de CYGEN. Nada se decide solo con software."
+      },
+      "s3": {
+        "title": "La casa pasa a un fideicomiso o SPV",
+        "text": "El fondo de CYGEN aporta el capital como Socio Gestor. Usted vive en la casa como Socio Comanditario."
+      },
+      "s4": {
+        "title": "Su participación crece cada mes",
+        "text": "Su Pago de Participación se define una sola vez al inicio. Una parte cubre el COP — el costo del capital, una tasa fija — y el resto aumenta su participación."
+      }
+    },
+    "different": {
+      "title": "Qué lo hace diferente",
+      "d1": {
+        "title": "Una sociedad, no una deuda",
+        "text": "Usted participa como el Socio Comanditario que vive en la casa. El fondo de CYGEN participa como el Socio Gestor que aporta el capital. Usted está construyendo propiedad, no pagando una deuda."
+      },
+      "d2": {
+        "title": "Un pago definido una sola vez",
+        "text": "Su Pago de Participación se fija al inicio. Cada seis meses el pago mínimo se recalcula según el capital aún pendiente — así, a medida que su participación crece, el mínimo puede bajar."
+      },
+      "d3": {
+        "title": "Espacio para respirar",
+        "text": "Si la vida se complica, una Pausa de Pagos puede detener sus pagos por un tiempo. Si el valor de la casa baja, puede ocurrir una Participación Invertida — la mecánica se acuerda con usted por escrito, desde el principio."
+      },
+      "d4": {
+        "title": "Una meta clara",
+        "text": "Hay un camino de salida si sus planes cambian, y un camino de completar la participación que termina con usted como dueño total de su casa."
+      }
+    },
+    "trust": {
+      "title": "Confianza y protecciones",
+      "t1": {
+        "title": "Revisión humana, siempre",
+        "text": "Una persona de CYGEN revisa cada solicitud. Nada se decide solo con software."
+      },
+      "t2": {
+        "title": "En un fideicomiso o SPV",
+        "text": "La casa se mantiene en un fideicomiso o SPV independiente hasta que su participación llegue al 100%."
+      },
+      "t3": {
+        "title": "Cifras en lenguaje claro",
+        "text": "Donde vea números en este sitio, son ilustrativos. Su estructura real se define en los documentos de su propia sociedad."
+      }
+    },
+    "faqTeaser": {
+      "title": "Preguntas que nos hacen",
+      "cta": "Leer todas las preguntas"
+    },
+    "cta": {
+      "title": "¿Listo para conocer su camino?",
+      "text": "Empiece con la opción que le convenga hoy — puede cambiar de camino hasta enviar su solicitud.",
+      "buy": "Comprar una casa con CYGEN",
+      "bring": "Traer mi casa actual"
+    },
+    "marquee": [
+      "Propiedad real",
+      "Capital paciente",
+      "Alianza por encima de la presión",
+      "Participación que crece con usted",
+      "Hogares, sostenidos juntos",
+      "Riqueza comunitaria"
+    ],
+    "compare": {
+      "title": "La misma casa. Otras cuentas.",
+      "subtitle": "Ajuste las cifras a su situación y vea cómo una sociedad CYGEN se compara con una hipoteca tradicional.",
+      "price": "Precio de la vivienda",
+      "share": "Pago inicial / participación inicial",
+      "rate": "Porcentaje anual de ejemplo",
+      "years": "Años de la hipoteca",
+      "yearsUnit": "años",
+      "monthUnit": "mes",
+      "perMo": "/mes",
+      "mortgageTitle": "Hipoteca tradicional",
+      "cygenTitle": "Sociedad CYGEN",
+      "downPayment": "Su pago inicial",
+      "financed": "Financiado por el banco",
+      "monthlyFixed": "Pago mensual fijo",
+      "totalPaid": "Total pagado",
+      "bankKeeps": "Interés total para el banco",
+      "copTotal": "COP total (equivalente al interés)",
+      "legendHome": "La vivienda en sí",
+      "requiredCop": "Pago mensual requerido (solo COP)",
+      "ownershipNow": "Propiedad al final de la proyección",
+      "monthsToFull": "Meses proyectados hasta el 100% de Participación",
+      "notWithin": "no dentro de la proyección",
+      "cadence": "Cadencia de ajuste del COP",
+      "cadence6": "Cada 6 meses (meses 7, 13, 19…)",
+      "cadence12": "Cada 12 meses (meses 13, 25, 37…)",
+      "fixedSentence": "Solo el COP es obligatorio cada mes. Aportar toda la Participación que pueda pagar es muy recomendable: aumenta su propiedad y reduce su COP en el próximo mes de ajuste.",
+      "noEquity1": "Este plan no acumula Participación: su COP se mantiene en",
+      "noEquity2": "cada mes, su propiedad permanece en",
+      "noEquity3": "y no hay fecha de finalización.",
+      "simTitle": "Pagos adicionales (opcionales, pero muy recomendables)",
+      "extraMonthly": "Pago de Participación mensual adicional",
+      "fromMonth": "desde el mes",
+      "untilMonth": "hasta el mes (0 = sin fin)",
+      "optionalTag": "opcional",
+      "quickLabel": "Opciones rápidas:",
+      "quickSuffix": "del primer COP al mes",
+      "oneTimeTitle": "Pagos de Participación únicos",
+      "colMonthOne": "Mes",
+      "colAmount": "Monto",
+      "addOneTime": "Añadir un pago único",
+      "maxRowsNote": "Hasta 12 filas",
+      "removeAria": "Eliminar",
+      "tableTitle": "COP en cada mes de ajuste",
+      "colMonth": "Mes efectivo",
+      "colGpBefore": "Capital GP antes",
+      "colGpAfter": "Capital GP después",
+      "colCopBefore": "COP antes",
+      "colCopAfter": "COP después",
+      "colChange": "Cambio",
+      "colEquityWindow": "Participación aportada en la ventana",
+      "moreAdjustments1": "…y",
+      "moreAdjustments2": "meses de ajuste más",
+      "difference": "Diferencia ilustrativa:",
+      "differenceSuffix": "se queda con usted en lugar del banco",
+      "start": "Empiece con estas cifras",
+      "copy": "Copie el enlace de este escenario",
+      "copied": "Enlace copiado",
+      "note": "Solo ilustrativo, no es una oferta: un único porcentaje anual de ejemplo rige ambos lados (interés en la hipoteca, COP en la sociedad). La hipoteca parte del precio menos su pago inicial. En la sociedad, el único pago obligatorio es el COP: un cargo simple sobre el capital restante del Socio General, fijo durante cada ventana y reajustado en cada mes de ajuste. La Participación es opcional pero muy recomendable. Sus cifras reales se fijan en su oferta personal."
+    }
+  },
+  "how": {
+    "title": "Cómo funciona",
+    "intro": "Desde su primera consulta hasta la propiedad total — cada etapa, en lenguaje claro.",
+    "stagesTitle": "Las etapas",
+    "stages": [
+      {
+        "k": "apply",
+        "title": "Solicitud",
+        "text": "Díganos qué camino quiere — comprar una casa con CYGEN o traer su casa actual — y comparta lo esencial. Este formulario nunca pide números de identificación oficial, números de cuenta ni datos de ingresos."
+      },
+      {
+        "k": "review",
+        "title": "Revisión por una persona",
+        "text": "Una persona de CYGEN revisa cada solicitud. El software puede organizar el expediente; nunca toma la decisión."
+      },
+      {
+        "k": "appraisal",
+        "title": "Tasación",
+        "text": "Una tasación independiente establece el valor de la casa. Así se fija la división del capital entre usted y el fondo."
+      },
+      {
+        "k": "structuring",
+        "title": "Estructuración",
+        "text": "Juntos definimos su participación inicial, calculamos su Pago de Participación una sola vez y fijamos el COP — el costo del capital, una tasa fija que no cambia."
+      },
+      {
+        "k": "closing",
+        "title": "Cierre",
+        "text": "La casa se coloca en un fideicomiso o SPV. Los costos de cierre los paga usted con su propio efectivo; CYGEN no los financia."
+      },
+      {
+        "k": "active",
+        "title": "Sociedad activa",
+        "text": "Usted vive en la casa y hace su Pago de Participación mensual. Una parte cubre el COP; el resto aumenta su participación. Cada seis meses el pago mínimo se recalcula según el capital aún pendiente."
+      },
+      {
+        "k": "completed",
+        "title": "Participación completada",
+        "text": "Cuando su participación llega al 100%, la casa sale del fideicomiso o SPV y la sociedad termina con usted como dueño total."
+      }
+    ],
+    "conceptsTitle": "Las palabras que usamos",
+    "concepts": [
+      {
+        "title": "COP — costo del capital",
+        "text": "Una tasa fija que es la parte del fondo en cada Pago de Participación. Se fija una sola vez, en la estructuración, y no cambia."
+      },
+      {
+        "title": "Pago de Participación",
+        "text": "Su pago mensual, definido una sola vez al inicio. Una parte cubre el COP; el resto aumenta su participación en la casa."
+      },
+      {
+        "title": "Pago mínimo",
+        "text": "El piso de su pago mensual. Se recalcula cada seis meses según el capital aún pendiente — no según un calendario escrito el primer día."
+      },
+      {
+        "title": "Pausa de Pagos",
+        "text": "Si la vida se complica, sus pagos pueden detenerse por un tiempo, en las condiciones acordadas en los documentos de su sociedad."
+      },
+      {
+        "title": "Participación Invertida",
+        "text": "Si el valor de la casa baja, puede ocurrir una Participación Invertida. Lo que sucede entonces está escrito en los documentos de su sociedad antes de firmar — sin sorpresas."
+      },
+      {
+        "title": "Salida y finalización",
+        "text": "Puede salir de la sociedad antes de tiempo por el camino acordado, o quedarse hasta que su participación llegue al 100% y la casa sea totalmente suya."
+      }
+    ],
+    "example": {
+      "title": "Un ejemplo ilustrativo",
+      "note": "Solo ilustrativo — no es una oferta, una promesa ni una proyección de ningún resultado.",
+      "r1": "Valor de la casa",
+      "r2": "Su participación inicial (20%)",
+      "r3": "Capital aportado por el fondo",
+      "r4": "COP",
+      "r4v": "Una tasa fija, definida una sola vez",
+      "r5": "Pago de Participación",
+      "r5v": "Definido una vez; una parte COP, otra participación"
+    },
+    "cta": {
+      "title": "Vea qué camino le conviene",
+      "text": "Dos formas de empezar. Una persona revisando su solicitud.",
+      "buy": "Comprar una casa con CYGEN",
+      "bring": "Traer mi casa actual"
+    }
+  },
+  "refi": {
+    "title": "Traer mi casa actual",
+    "intro": "Usted ya es dueño de la casa donde vive. Una sociedad con CYGEN liquida el financiamiento existente y convierte el valor que ya ha construido en su participación inicial.",
+    "youBring": {
+      "title": "Lo que usted aporta",
+      "items": [
+        "Una casa de su propiedad donde vive",
+        "Un financiamiento existente que quiere liquidar",
+        "Los costos de cierre, pagados con su propio efectivo",
+        "La participación que su casa ya tiene"
+      ]
+    },
+    "cygenDoes": {
+      "title": "Lo que CYGEN hace",
+      "items": [
+        "Liquida el financiamiento existente desde el fondo",
+        "Coloca la casa en un fideicomiso o SPV",
+        "Le reconoce su participación inicial — el valor de la casa menos el monto usado para liquidar el financiamiento existente",
+        "Define su Pago de Participación una sola vez, con un COP fijo"
+      ]
+    },
+    "notOffered": {
+      "title": "Lo que no se ofrece",
+      "items": [
+        "Sin retiro de efectivo — el capital del fondo liquida el financiamiento existente, y nada más",
+        "Sin financiamiento de los costos de cierre — usted los paga con su propio efectivo"
+      ],
+      "note": "Estos límites mantienen la sociedad simple, transparente y enfocada en una sola meta: su propiedad total."
+    },
+    "steps": {
+      "title": "Los pasos",
+      "items": [
+        "Cuéntenos sobre su casa y el financiamiento que quiere liquidar",
+        "Una persona de CYGEN revisa su solicitud",
+        "Una tasación independiente establece el valor de su casa",
+        "Su sociedad se estructura: participación inicial, Pago de Participación, COP",
+        "El fondo liquida el financiamiento existente y la casa pasa a un fideicomiso o SPV",
+        "Comienza su sociedad activa — usted vive en su casa y aumenta su participación"
+      ]
+    },
+    "whoDecides": {
+      "title": "Quién decide",
+      "text": "Una persona de CYGEN revisa cada solicitud — incluida la suya. Nada se decide solo con software, y enviar una solicitud nunca garantiza la aceptación."
+    },
+    "cta": {
+      "title": "Hablemos de su casa",
+      "text": "Cuéntenos su situación y una persona le responderá.",
+      "button": "Contactar a CYGEN"
+    }
+  },
+  "lp": {
+    "title": "Para Socios Comanditarios",
+    "intro": "El Socio Comanditario es la persona que vive en la casa y aumenta su participación hasta ser dueña total. Esta página reúne lo más importante para usted.",
+    "role": {
+      "title": "Su papel en la sociedad",
+      "text": "Usted vive en la casa y la cuida como suya — porque está en camino de serlo. El fondo de CYGEN es el Socio Gestor: aporta el capital y se encarga de la administración de la sociedad. La casa se mantiene en un fideicomiso o SPV hasta que su participación llegue al 100%."
+    },
+    "payment": {
+      "title": "Su Pago de Participación",
+      "text": "Un solo pago mensual, definido una vez al inicio de la sociedad.",
+      "p1": "Una parte de cada pago cubre el COP — el costo del capital, una tasa fija.",
+      "p2": "El resto aumenta su participación en la casa, mes tras mes.",
+      "p3": "Cada seis meses el pago mínimo se recalcula según el capital aún pendiente. A medida que su participación crece, el mínimo puede bajar."
+    },
+    "safeguards": {
+      "title": "Si la vida cambia",
+      "s1": {
+        "title": "Pausa de Pagos",
+        "text": "Si la vida se complica — un cambio de trabajo, una enfermedad, una emergencia familiar — sus pagos pueden detenerse por un tiempo, en las condiciones acordadas en sus documentos."
+      },
+      "s2": {
+        "title": "Participación Invertida",
+        "text": "Si el valor de la casa baja, puede ocurrir una Participación Invertida. La mecánica está escrita antes de que usted firme, para que sepa dónde está parado en los buenos y en los malos momentos."
+      }
+    },
+    "milestones": {
+      "title": "Dos caminos hacia adelante",
+      "m1": {
+        "title": "El camino de salida",
+        "text": "Si sus planes cambian, hay un camino acordado para salir de la sociedad, descrito en sus documentos."
+      },
+      "m2": {
+        "title": "El camino de finalización",
+        "text": "Siga el curso hasta que su participación llegue al 100% — la casa sale del fideicomiso o SPV y es totalmente suya."
+      }
+    },
+    "cta": {
+      "title": "¿Preguntas sobre ser Socio Comanditario?",
+      "text": "Lea las preguntas frecuentes o escríbanos — una persona le responderá.",
+      "faq": "Leer las preguntas",
+      "contact": "Contáctenos"
+    }
+  },
+  "brokers": {
+    "title": "Para corredores y aliados",
+    "intro": "Trabaje con CYGEN para ofrecer a sus clientes una sociedad de capital junto a los productos que ya conoce.",
+    "who": {
+      "title": "Con quiénes trabajamos",
+      "items": [
+        "Corredores inmobiliarios y agentes del comprador",
+        "Asesores financieros y de vivienda independientes",
+        "Organizaciones comunitarias que apoyan la vivienda propia"
+      ]
+    },
+    "how": {
+      "title": "Cómo funciona para usted",
+      "items": [
+        "Presente a un cliente que encaje en uno de los dos caminos",
+        "Nosotros nos encargamos del resto — y le mantenemos informado",
+        "Una persona de CYGEN revisa cada solicitud; nada se decide solo con software"
+      ]
+    },
+    "standards": {
+      "title": "Los estándares que mantenemos",
+      "items": [
+        "Nunca prometemos aprobación, tasas, ahorros ni resultados",
+        "Cada cifra que usted muestre a un cliente está marcada como ilustrativa",
+        "El consentimiento de su cliente va antes que cualquier contacto"
+      ]
+    },
+    "cta": {
+      "title": "Empiece la conversación",
+      "text": "Únase a un taller para corredores o escríbanos directamente.",
+      "workshops": "Ver talleres",
+      "contact": "Contáctenos"
+    }
+  },
+  "workshops": {
+    "title": "Talleres",
+    "intro": "Sesiones en línea, gratuitas y en grupos pequeños. Este es un calendario de muestra para revisión.",
+    "dateLabel": "Fecha",
+    "timeLabel": "Hora",
+    "modeLabel": "Formato",
+    "modeOnline": "En línea",
+    "durationLabel": "minutos",
+    "spotsLeft": "lugares disponibles",
+    "full": "Este taller está lleno",
+    "items": {
+      "equity-payment-basics": {
+        "title": "Entender el Pago de Participación",
+        "desc": "Cómo se define el pago una sola vez, qué es el COP y por qué el pago mínimo se recalcula cada seis meses."
+      },
+      "bring-your-home": {
+        "title": "Traer mi casa actual, explicado",
+        "desc": "Cómo funciona liquidar el financiamiento existente, qué significa la participación inicial y qué costos paga usted en efectivo."
+      },
+      "brokers-intro": {
+        "title": "Para corredores: presentar CYGEN",
+        "desc": "El modelo de sociedad, los dos caminos y cómo hablar de ellos con los clientes en palabras simples."
+      },
+      "partner-seminar-houston": {
+        "title": "Seminario para Socios CYGEN — Houston",
+        "desc": "Una tarde presencial sobre el modelo de sociedad: participación, el COP, el fideicomiso o SPV, y sus preguntas en vivo."
+      }
+    },
+    "form": {
+      "title": "Inscríbase en un taller",
+      "workshopLabel": "Taller",
+      "nameLabel": "Nombre completo",
+      "emailLabel": "Correo electrónico",
+      "phoneLabel": "Teléfono",
+      "languageLabel": "Idioma preferido",
+      "submit": "Inscribirse",
+      "success": "Está inscrito. Enviaremos los detalles a su correo.",
+      "error": "No pudimos guardar su inscripción. Inténtelo de nuevo."
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "intro": "Lo esencial de la sociedad CYGEN, en lenguaje claro.",
+    "items": [
+      {
+        "q": "¿CYGEN es una hipoteca?",
+        "a": "No. CYGEN es un programa de sociedad de capital. Usted es el Socio Comanditario que vive en la casa; el fondo de CYGEN es el Socio Gestor que aporta el capital. La casa se mantiene en un fideicomiso o SPV hasta que su participación llegue al 100%."
+      },
+      {
+        "q": "¿Quién es dueño de la casa durante la sociedad?",
+        "a": "La casa se mantiene en un fideicomiso o SPV independiente. Dentro de esa estructura, usted y el fondo tienen cada uno una participación. Cuando la suya llega al 100%, la casa sale de la estructura y es totalmente suya."
+      },
+      {
+        "q": "¿Qué es el COP?",
+        "a": "COP significa costo del capital. Es una tasa fija — la parte del fondo en cada Pago de Participación — que se define una sola vez en la estructuración y nunca cambia después."
+      },
+      {
+        "q": "¿Cómo se define mi Pago de Participación?",
+        "a": "Su Pago de Participación se calcula una sola vez, al inicio de la sociedad, a partir del capital que aporta el fondo y del COP fijo. Una parte de cada pago cubre el COP; el resto aumenta su participación."
+      },
+      {
+        "q": "¿Por qué el pago mínimo cambia cada seis meses?",
+        "a": "El pago mínimo se recalcula según el capital aún pendiente, no según un calendario fijo. A medida que su participación crece y el capital pendiente disminuye, el mínimo puede bajar."
+      },
+      {
+        "q": "¿Qué pasa si no puedo pagar por un tiempo?",
+        "a": "Si la vida se complica, una Pausa de Pagos puede detener sus pagos por un tiempo, en las condiciones acordadas en los documentos de su sociedad. Hable con nosotros pronto — estas conversaciones las atiende una persona, no un software."
+      },
+      {
+        "q": "¿Qué pasa si baja el valor de mi casa?",
+        "a": "Puede ocurrir una Participación Invertida. Lo que eso significa para usted y para el fondo está escrito en los documentos de su sociedad antes de firmar, para que no haya sorpresas después."
+      },
+      {
+        "q": "¿Puedo salir de la sociedad antes de tiempo?",
+        "a": "Sí. Hay un camino de salida acordado, descrito en sus documentos. Y si se queda, el camino de finalización termina con usted como dueño total de su casa."
+      },
+      {
+        "q": "¿Quién decide si se acepta mi solicitud?",
+        "a": "Una persona de CYGEN revisa cada solicitud. Nada se decide solo con software, y enviar una solicitud nunca garantiza la aceptación."
+      },
+      {
+        "q": "¿Qué diferencia hay entre comprar con CYGEN y traer mi casa?",
+        "a": "Comprar con CYGEN significa que usted elige una casa y una participación inicial, y el fondo aporta el resto. Traer su casa significa que el fondo liquida el financiamiento existente, y usted comienza con la participación que su casa ya tiene."
+      },
+      {
+        "q": "¿Qué costos pago al inicio?",
+        "a": "Usted paga los costos de cierre con su propio efectivo. CYGEN no financia los costos de cierre, y no se ofrece retiro de efectivo en ninguno de los dos caminos."
+      },
+      {
+        "q": "¿Puedo cambiar entre los dos caminos?",
+        "a": "Sí. Puede cambiar entre comprar con CYGEN y traer su casa actual en cualquier momento hasta enviar su solicitud."
+      },
+      {
+        "q": "¿Prometen la aprobación o cifras concretas?",
+        "a": "No. Nunca prometemos aprobación, tasas, ahorros ni resultados. Todas las cifras de este sitio son ilustrativas; su estructura real se define en los documentos de su propia sociedad."
+      },
+      {
+        "q": "¿Qué información me van a pedir?",
+        "a": "Nuestros formularios solo piden sus datos de contacto y qué camino está considerando. Nunca pedimos números de identificación oficial, números de cuenta ni datos de ingresos a través de este sitio web."
+      }
+    ]
+  },
+  "about": {
+    "title": "Acerca de CYGEN",
+    "p1": "CYGEN Equities existe para que la persona que vive en una casa pueda llegar a ser su propietaria total — mediante una sociedad, no una hipoteca.",
+    "p2": "En cada sociedad CYGEN los papeles son claros. Usted es el Socio Comanditario: vive en la casa y aumenta su participación. El fondo de CYGEN es el Socio Gestor: aporta el capital. La casa se mantiene en un fideicomiso o SPV hasta que su participación llegue al 100%.",
+    "p3": "Creemos que las decisiones sobre la casa de alguien merecen criterio humano. Una persona de CYGEN revisa cada solicitud — nada se decide solo con software.",
+    "principlesTitle": "Nuestros principios",
+    "principles": [
+      {
+        "title": "Claridad",
+        "text": "Palabras simples, cifras siempre marcadas como ilustrativas y documentos que de verdad se pueden leer."
+      },
+      {
+        "title": "Criterio humano",
+        "text": "Cada solicitud la revisa una persona. Cada conversación difícil ocurre con una persona."
+      },
+      {
+        "title": "Alineación",
+        "text": "La sociedad tiene éxito cuando usted llega al 100% — ese es el resultado alrededor del cual se construye la estructura."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "intro": "Cuéntenos un poco sobre usted y qué camino está considerando. Una persona de CYGEN leerá su mensaje y le responderá.",
+    "neverAsk": "Este formulario nunca pide números de identificación oficial, números de cuenta ni datos de ingresos.",
+    "form": {
+      "nameLabel": "Nombre completo",
+      "emailLabel": "Correo electrónico",
+      "phoneLabel": "Teléfono",
+      "contactNote": "Basta un correo o un teléfono — uno de los dos.",
+      "languageLabel": "Idioma preferido",
+      "pathLabel": "¿Qué camino está considerando?",
+      "pathPurchase": "Comprar una casa con CYGEN",
+      "pathRefinance": "Traer mi casa actual",
+      "pathUnsure": "Aún no estoy seguro",
+      "messageLabel": "Su mensaje",
+      "messagePlaceholder": "Cuéntenos su situación con sus propias palabras.",
+      "consentLabel": "Acepto que CYGEN me contacte sobre mi consulta.",
+      "submit": "Enviar mensaje",
+      "success": "Gracias — su mensaje fue recibido. Una persona de CYGEN lo leerá y le responderá.",
+      "error": "No pudimos enviar su mensaje. Inténtelo de nuevo.",
+      "firstNameLabel": "Nombre",
+      "lastNameLabel": "Apellidos",
+      "phoneLabelRequired": "Teléfono",
+      "addressLabel": "Domicilio"
+    }
+  },
+  "legal": {
+    "title": "Legal",
+    "intro": "Estos documentos son borradores preparados para revisión. Cada uno está marcado como tal.",
+    "disclosures": {
+      "title": "Divulgaciones",
+      "paragraphs": [
+        "CYGEN es un programa de sociedad de capital, no un producto hipotecario. En una sociedad CYGEN, la persona que vive en la casa es la Socia Comanditaria y el fondo de CYGEN es el Socio Gestor. La casa se mantiene en un fideicomiso o SPV hasta que la participación del Socio Comanditario llegue al 100%.",
+        "Todas las cifras de este sitio web son ilustrativas. No son una oferta, una promesa ni una proyección de ningún resultado. La estructura de cualquier sociedad se define únicamente en los documentos de esa sociedad.",
+        "CYGEN no promete aprobación, tasas, ahorros ni resultados. Una persona de CYGEN revisa cada solicitud; nada se decide solo con software. Enviar una solicitud no garantiza la aceptación.",
+        "El valor de las viviendas puede subir y bajar. Si el valor de una casa baja, puede ocurrir una Participación Invertida. La Pausa de Pagos, la Participación Invertida, el camino de salida y el camino de finalización se rigen por los documentos de cada sociedad, que usted debe leer con atención antes de firmar.",
+        "Nada en este sitio web constituye asesoría legal, fiscal o financiera. Consulte a sus propios asesores."
+      ]
+    },
+    "privacy": {
+      "title": "Aviso de privacidad",
+      "paragraphs": [
+        "Solo recopilamos los datos que usted nos da en nuestros formularios: su nombre, su correo electrónico o teléfono, su idioma preferido, el camino que está considerando y su mensaje. En las inscripciones a talleres también registramos la sesión que eligió.",
+        "Usamos estos datos para responder a su consulta y gestionar las inscripciones a talleres. No vendemos sus datos y solo los compartimos con los proveedores que operan este sitio web, bajo obligaciones de confidencialidad.",
+        "Nuestros formularios nunca piden números de identificación oficial, números de cuenta ni datos de ingresos. Por favor, no nos envíe esa información a través de este sitio web.",
+        "En cualquier momento puede pedirnos ver, corregir o eliminar los datos que tenemos sobre usted, escribiendo a través del formulario de contacto.",
+        "Este aviso es un borrador y será reemplazado por una política de privacidad completa revisada por asesores legales."
+      ]
+    },
+    "terms": {
+      "title": "Términos de uso",
+      "paragraphs": [
+        "Este sitio web es proporcionado por CYGEN Equities con fines de información general. Al usarlo, usted acepta estos términos de uso.",
+        "El contenido de este sitio web es solo informativo. No es una oferta, una invitación ni un compromiso de ningún tipo, y no crea ninguna sociedad ni otra relación.",
+        "Todo el texto, los gráficos y la marca CYGEN de este sitio pertenecen a CYGEN Equities. No puede reproducirlos sin permiso por escrito.",
+        "Este sitio web puede enlazar a otros sitios. No somos responsables de su contenido.",
+        "Podemos cambiar estos términos de uso en cualquier momento; la versión publicada aquí es la que aplica. La ley aplicable y la jurisdicción serán confirmadas por asesores legales."
+      ]
+    },
+    "accessibility": {
+      "title": "Declaración de accesibilidad",
+      "paragraphs": [
+        "Queremos que todas las personas puedan usar este sitio web. Está construido para cumplir WCAG 2.2 nivel AA: contraste de texto de al menos 4.5:1, indicadores de foco visibles, menús y acordeones operables por teclado, estructura semántica con un encabezado principal por página y respeto por la configuración de movimiento reducido.",
+        "El sitio funciona en inglés y español, y en temas oscuro y claro que cumplen el mismo estándar de contraste.",
+        "Si algo en este sitio le resulta difícil de usar, díganoslo a través del formulario de contacto. Una persona leerá su mensaje y corregiremos lo que podamos.",
+        "Esta declaración es un borrador y será revisada por asesores legales."
+      ]
+    }
+  },
+  "apply": {
+    "title": "Inicie su solicitud",
+    "intro": "Tres pasos cortos, con el concierge a su lado. Una persona de CYGEN revisa cada solicitud — nada se decide solo con software.",
+    "step1": "Su camino",
+    "step2": "La casa",
+    "step3": "Usted",
+    "pathQ": "¿Con qué camino quiere empezar?",
+    "switchNote": "Puede cambiar entre los dos caminos hasta enviar la solicitud.",
+    "pathPurchase": "Comprar una casa con CYGEN",
+    "pathPurchaseDesc": "Elija una casa y una participación inicial; el fondo aporta el resto del capital.",
+    "pathRefinance": "Traer mi casa actual",
+    "pathRefinanceDesc": "Liquide el financiamiento existente y comience con la participación que su casa ya tiene.",
+    "city": "Ciudad o zona de la casa",
+    "homeValue": "Valor estimado de la casa",
+    "homeValueNote": "Una estimación basta — una tasación independiente fijará la cifra real más adelante.",
+    "existing": "Monto necesario para liquidar el financiamiento existente",
+    "share": "Su participación inicial (%)",
+    "back": "Atrás",
+    "next": "Continuar",
+    "reviewTitle": "Revise y envíe a una persona",
+    "reviewNote": "Nada de esto es vinculante. Enviar inicia una revisión humana; nunca garantiza la aceptación.",
+    "submit": "Enviar solicitud",
+    "successTitle": "Solicitud recibida",
+    "successText": "Una persona de CYGEN la revisará personalmente. Le contactaremos por los datos que nos dio.",
+    "error": "No pudimos enviar su solicitud. Inténtelo de nuevo.",
+    "numbers": {
+      "title": "Sus cifras",
+      "note": "El concierge ve estas cifras ilustrativas de su propia simulación en la calculadora; nunca son una oferta, aprobación o cotización.",
+      "clear": "Borrar",
+      "homeValue": "Valor de la vivienda",
+      "share": "Participación inicial",
+      "rate": "Porcentaje anual",
+      "cop": "COP requerido (mensual)",
+      "equity": "Pago de Participación adicional",
+      "completion": "Meses proyectados al 100%",
+      "ownership": "Propiedad"
+    },
+    "contactNote": "El correo, el domicilio y el teléfono correctos importan: una persona de CYGEN usa exactamente estos datos para contactarle sobre su solicitud."
+  },
+  "concierge": {
+    "title": "Concierge de CYGEN",
+    "subtitle": "Pregunte lo que quiera mientras lo llena.",
+    "welcome": "¡Bienvenido! Puedo explicarle los dos caminos, el Pago de Participación, el COP o qué pasa después de enviar. ¿Qué le gustaría saber?",
+    "placeholder": "Pregunte al concierge…",
+    "send": "Enviar",
+    "thinking": "Pensando…",
+    "error": "El concierge no está disponible ahora — el formulario sigue funcionando.",
+    "chips": [
+      "¿Qué camino me conviene?",
+      "¿Qué es el COP?",
+      "¿Qué pasa después de enviar?"
+    ],
+    "talkToPerson": "Hablar con una persona"
+  },
+  "team": {
+    "title": "Nuestro equipo",
+    "intro": "Las personas que leen cada solicitud, estructuran cada sociedad y responden sus mensajes.",
+    "note": "Los perfiles son marcadores de posición para revisión — los nombres y fotografías reales llegarán con el equipo.",
+    "pickCategory": "Elija un equipo para conocer a sus integrantes.",
+    "nameTbd": "Nombre por anunciar",
+    "categories": {
+      "executive": {
+        "label": "Liderazgo ejecutivo",
+        "members": [
+          {
+            "role": "Socio Director Ejecutivo",
+            "focus": "Define la dirección y asume la responsabilidad final de cada decisión de sociedad."
+          },
+          {
+            "role": "Dirección de Sociedades",
+            "focus": "Es responsable de la estructura de cada sociedad, de la participación inicial hasta el 100%."
+          },
+          {
+            "role": "Socio Director de Operaciones",
+            "focus": "Mantiene tasaciones, cierres y la maquinaria del fideicomiso o SPV funcionando a tiempo."
+          }
+        ]
+      },
+      "marketing": {
+        "label": "Marketing y ventas",
+        "members": [
+          {
+            "role": "Dirección de Marketing",
+            "focus": "Cuenta la historia de CYGEN en palabras simples — y mantiene cada cifra marcada como ilustrativa."
+          },
+          {
+            "role": "Liderazgo de Ventas",
+            "focus": "Guía a los futuros Socios Comanditarios por los dos caminos antes de que soliciten."
+          },
+          {
+            "role": "Comunidad y Contenido",
+            "focus": "Dirige los talleres, escribe las guías y responde preguntas en inglés y español."
+          }
+        ]
+      },
+      "admin": {
+        "label": "Soporte administrativo",
+        "members": [
+          {
+            "role": "Dirección de Operaciones y Administración",
+            "focus": "Mantiene expedientes, documentos y calendarios en orden para que nada se pierda."
+          },
+          {
+            "role": "Servicio a Miembros",
+            "focus": "La primera respuesta amable para los Socios Comanditarios — incluidas las conversaciones de Pausa de Pagos."
+          },
+          {
+            "role": "Oficina y Registros",
+            "focus": "Mantiene los registros de cada sociedad, con precisión y confidencialidad."
+          }
+        ]
+      },
+      "advisors": {
+        "label": "Asesores",
+        "members": [
+          {
+            "role": "Asesoría de Vivienda",
+            "focus": "Aporta años de práctica en vivienda a cómo se estructuran y revisan las sociedades."
+          },
+          {
+            "role": "Asesoría Legal Externa",
+            "focus": "Revisa los documentos de la sociedad — los borradores de la página Legal esperan esta aprobación."
+          },
+          {
+            "role": "Asesoría de Educación Financiera",
+            "focus": "Da forma al programa de talleres para que cada concepto se explique solo."
+          }
+        ]
+      },
+      "investors": {
+        "label": "Inversores",
+        "members": [
+          {
+            "role": "Relaciones con el Fondo",
+            "focus": "El puente entre los inversores del fondo y las sociedades que el fondo financia."
+          },
+          {
+            "role": "Reportes a Inversores",
+            "focus": "Convierte la actividad de las sociedades en reportes claros y honestos para el fondo."
+          },
+          {
+            "role": "Impacto y Asignación",
+            "focus": "Observa hacia dónde fluye el capital y si amplía el acceso a la propiedad."
+          }
+        ]
+      }
+    }
+  },
+  "philosophy": {
+    "title": "Nuestra filosofía",
+    "intro": "Cinco convicciones sostienen todo lo que CYGEN construye.",
+    "beliefs": [
+      {
+        "title": "Propiedad por encima de la deuda",
+        "text": "Una casa debe ser algo que llegas a poseer, no algo que debes. La sociedad alinea a todos alrededor de esa única meta."
+      },
+      {
+        "title": "Palabras simples, siempre",
+        "text": "Si una frase necesita un glosario, la reescribimos. Las cifras se marcan como ilustrativas, y las reales viven en documentos que de verdad se pueden leer."
+      },
+      {
+        "title": "Una persona decide",
+        "text": "El software puede organizar un expediente; nunca lo decide. Cada solicitud, cada Pausa de Pagos, cada conversación difícil tiene una persona."
+      },
+      {
+        "title": "Alineados al 100%",
+        "text": "La sociedad tiene éxito cuando el Socio Comanditario llega a la propiedad total. Todo lo que no sirva a ese resultado no pertenece a la estructura."
+      },
+      {
+        "title": "Calma en los momentos difíciles",
+        "text": "La Pausa de Pagos y la Participación Invertida existen porque la vida no es una línea recta. Las reglas para los momentos difíciles se escriben antes de que hagan falta."
+      }
+    ]
+  },
+  "impact": {
+    "title": "Impacto social",
+    "intro": "Lo que la propiedad en sociedad puede cambiar — y cómo nos exigimos cumplirlo.",
+    "areas": [
+      {
+        "title": "Acceso a la propiedad",
+        "text": "La brecha de capital inicial mantiene a hogares capaces fuera de la propiedad. Una sociedad existe para cerrar esa brecha con copropiedad, no con más deuda."
+      },
+      {
+        "title": "Educación en lenguaje simple",
+        "text": "Talleres gratuitos, preguntas abiertas y un vocabulario que se explica solo — el Pago de Participación, el COP, la revisión semestral — para decidir con comprensión."
+      },
+      {
+        "title": "Alianzas comunitarias",
+        "text": "Trabajamos con corredores, asesores y organizaciones comunitarias que ya sirven a futuros propietarios, y ponemos el consentimiento de sus clientes antes que cualquier contacto."
+      },
+      {
+        "title": "Reportes honestos",
+        "text": "Preferimos decir menos y demostrarlo. Esta página expresa nuestra dirección; los resultados se publican solo cuando podemos evidenciarlos."
+      }
+    ],
+    "note": "Sin cifras inventadas: los datos de impacto aparecerán aquí solo cuando sean reales, revisados y fechados."
+  },
+  "banners": {
+    "howItWorks": {
+      "alt": "Dos personas revisando juntas los documentos de una sociedad",
+      "caption": "Cada solicitud la lee una persona — así se ve ese camino."
+    },
+    "refinance": {
+      "alt": "Un propietario sentado en los escalones de su propio porche",
+      "caption": "La casa que ya quiere puede ser el inicio de su sociedad."
+    },
+    "limitedPartners": {
+      "alt": "Una familia descansando junta en su sala",
+      "caption": "Viva en su casa mientras su participación crece, mes a mes."
+    },
+    "brokers": {
+      "alt": "Dos profesionales dándose la mano en una reunión",
+      "caption": "Las buenas sociedades empiezan con una conversación."
+    },
+    "workshops": {
+      "alt": "Un grupo pequeño de personas en una sesión de taller",
+      "caption": "Grupos pequeños, palabras simples, preguntas reales — en línea."
+    },
+    "about": {
+      "alt": "Un grupo diverso de personas en una cálida reunión de equipo",
+      "caption": "Una creencia: la persona que vive en una casa debe poder ser su dueña."
+    },
+    "contact": {
+      "alt": "Dos personas en una conversación amable",
+      "caption": "Escríbanos — le responde una persona."
+    },
+    "resources": {
+      "alt": "Personas alrededor de una mesa en una sesión comunitaria de CYGEN",
+      "caption": "Foto: imagen de muestra. Horarios y lugares son de muestra hasta conectar el calendario en vivo."
+    }
+  },
+  "admin": {
+    "title": "Administración",
+    "passwordLabel": "Contraseña de administración",
+    "signIn": "Entrar",
+    "wrongPassword": "Contraseña incorrecta.",
+    "loadError": "No se pudieron cargar los datos.",
+    "signOut": "Salir",
+    "refresh": "Actualizar",
+    "leads": "Contactos",
+    "registrations": "Inscripciones a talleres",
+    "applications": "Solicitudes",
+    "exportCsv": "Exportar CSV",
+    "empty": "Aún no hay nada aquí.",
+    "colDate": "Fecha",
+    "colName": "Nombre",
+    "colEmail": "Correo",
+    "colPhone": "Teléfono",
+    "colLang": "Idioma",
+    "colPath": "Camino",
+    "colMessage": "Mensaje",
+    "colWorkshop": "Taller",
+    "colCity": "Ciudad",
+    "colValue": "Valor de la casa",
+    "colExisting": "Financiamiento existente",
+    "colShare": "Participación inicial %",
+    "scenarios": "Escenarios",
+    "deliveries": "Alertas de contacto",
+    "conciergeStats": "Rutas del concierge",
+    "retention": "Retención de escenarios",
+    "retentionDays": "Conservar escenarios (días)",
+    "save": "Guardar",
+    "saved": "Guardado",
+    "purgeNow": "Purgar ahora",
+    "purged": "escenarios purgados",
+    "filterFrom": "Desde",
+    "filterTo": "Hasta",
+    "filterApply": "Aplicar filtros",
+    "perDay": "Por día",
+    "colPage": "Página",
+    "colSession": "Sesión",
+    "colFigures": "Cifras",
+    "colApplication": "Solicitud",
+    "colScenario": "Escenario",
+    "colEvent": "Evento",
+    "colDelivery": "Entrega",
+    "colStatus": "Estado",
+    "colAttempts": "Intentos",
+    "colError": "Último error",
+    "resend": "Reenviar",
+    "webhookConfigured": "Webhook de contactos configurado",
+    "webhookNotConfigured": "webhook not configured",
+    "promptVersion": "Versión del prompt"
+  },
+  "account": {
+    "title": "Cuenta",
+    "registerTitle": "Abra su cuenta",
+    "registerIntro": "Los datos de su solicitud se trasladan; solo cree su contraseña y el concierge le guiará en los pasos restantes.",
+    "nameLabel": "Nombre completo",
+    "emailLabel": "Correo electrónico",
+    "passwordLabel": "Contraseña (8+ caracteres)",
+    "confirmLabel": "Repita la contraseña",
+    "createAccount": "Crear mi cuenta",
+    "signIn": "Iniciar sesión",
+    "haveAccount": "¿Ya tiene cuenta? Inicie sesión",
+    "needAccount": "¿Nuevo aquí? Abra su cuenta",
+    "backHome": "Volver al inicio",
+    "linkedNote": "Su solicitud fue recibida y queda vinculada a esta cuenta automáticamente.",
+    "errorDetails": "Ingrese su nombre y un correo válido.",
+    "errorPasswordLength": "La contraseña necesita al menos 8 caracteres.",
+    "errorPasswordMatch": "Las contraseñas no coinciden.",
+    "errorEmailTaken": "Ya existe una cuenta con este correo; inicie sesión.",
+    "errorInvalidCredentials": "Correo o contraseña incorrectos.",
+    "welcome": "Bienvenido/a",
+    "intro": "Su cuenta está abierta. Complete su perfil abajo; el concierge le acompaña en los pasos restantes.",
+    "yourApplication": "Su solicitud",
+    "noApplication": "Aún no hay ninguna solicitud vinculada a esta cuenta.",
+    "completeProfile": "Complete su perfil",
+    "completeProfileText": "Una persona de CYGEN usa estos datos para contactarle sobre su solicitud.",
+    "phoneLabel": "Teléfono (opcional)",
+    "save": "Guardar",
+    "saved": "Guardado",
+    "signOut": "Cerrar sesión",
+    "colPath": "Vía"
+  },
+  "resources": {
+    "title": "Recursos",
+    "intro": "Guías, herramientas y eventos para entender la sociedad CYGEN a su ritmo — y el calendario de cada seminario, seminario web y taller, con horario y lugar, en línea o presencial.",
+    "nextEvent": "Próximo evento",
+    "eventsTitle": "Calendario de eventos",
+    "noEvents": "Se están programando nuevos eventos; vuelva pronto.",
+    "online": "En línea (enlace tras el registro)",
+    "inPerson": "Presencial",
+    "addToCalendar": "Añadir al calendario (.ics)",
+    "googleCalendar": "Abrir en Google Calendar",
+    "registerCta": "Regístrese en un taller",
+    "type": {
+      "workshop": "Taller",
+      "webinar": "Seminario web",
+      "seminar": "Seminario"
+    },
+    "cardsTitle": "Siga explorando",
+    "cardCta": "Abrir",
+    "cards": {
+      "how": {
+        "title": "Cómo funciona",
+        "desc": "La sociedad explicada paso a paso: participación, el COP, el fideicomiso o SPV y el camino al 100%."
+      },
+      "faq": {
+        "title": "Preguntas, respondidas",
+        "desc": "Las preguntas de siempre — documentos, tiempos, qué sigue — en lenguaje claro."
+      },
+      "calc": {
+        "title": "Calculadora comparativa",
+        "desc": "Ponga sus propias cifras y vea cómo baja el COP a medida que crece su participación, junto a una hipoteca tradicional."
+      }
+    }
+  }
+}

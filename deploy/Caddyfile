@@ -1,0 +1,21 @@
+{$DOMAIN:localhost} {
+	encode zstd gzip
+
+	# The API (including the Concierge's streamed answers) goes to the backend.
+	handle /api/* {
+		reverse_proxy backend:8001 {
+			flush_interval -1
+		}
+	}
+
+	# Everything else is the single-page app.
+	handle {
+		root * /srv
+		try_files {path} /index.html
+		file_server
+	}
+}
+
+www.{$DOMAIN:localhost} {
+	redir https://{$DOMAIN:localhost}{uri} permanent
+}

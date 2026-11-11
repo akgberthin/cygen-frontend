@@ -1,0 +1,15 @@
+# Build the React app, then serve it (and proxy /api) with Caddy, which also gets the HTTPS certificate.
+FROM node:20-alpine AS build
+WORKDIR /app
+COPY frontend/package.json ./
+RUN npm install --legacy-peer-deps --no-audit --no-fund
+COPY frontend/ ./
+ARG REACT_APP_BACKEND_URL
+ARG REACT_APP_APPLY_URL=
+ENV REACT_APP_BACKEND_URL=$REACT_APP_BACKEND_URL \
+    REACT_APP_APPLY_URL=$REACT_APP_APPLY_URL
+RUN npm run build
+
+FROM caddy:2-alpine
+COPY --from=build /app/build /srv
+COPY deploy/Caddyfile /etc/caddy/Caddyfile

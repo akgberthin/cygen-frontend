@@ -1,0 +1,17 @@
+# CYGEN Equities
+
+CYGEN Equities (cygenequities.com) runs an equity partnership program for homes: the person who lives in the home is the Limited Partner, CYGEN's fund is the General Partner and supplies the capital, and the home is held in a trust or SPV until the Limited Partner's equity reaches 100%. It is a partnership, not a mortgage product. A person at CYGEN reviews every application; nothing is decided by software alone. Figures on the site are illustrative.
+
+## Pages
+- /en/ and /es/ — Home: the two ways to start (buy a home with CYGEN, or bring your current home), how a partnership works in four steps, safeguards, FAQ teaser.
+- /{lang}/how-it-works — The stages from application to equity completed, plus the vocabulary (COP, Equity Payment, minimum payment, Payment Halt, Reversed Equity, exit and completion paths).
+- /{lang}/refinance — "Bring my current home": settle the existing financing, start with the equity the home already holds; cash-out and closing-cost funding are not offered.
+- /{lang}/limited-partners — What it means to be the Limited Partner who lives in the home.
+- /{lang}/brokers — How brokers and partners can introduce clients.
+- /{lang}/workshops — Upcoming workshops and registration.
+- /{lang}/faq — Frequently asked questions about the partnership.
+- /{lang}/about — Mission and principles.
+- /{lang}/contact — Contact form.
+- /{lang}/legal — Draft disclosures, privacy notice, terms and accessibility statement.
+
+The site is bilingual (English and Spanish) at /en/... and /es/... paths. All content is sample content for review; legal text is a draft awaiting counsel confirmation.

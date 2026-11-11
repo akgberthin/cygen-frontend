@@ -1,0 +1,127 @@
+{
+  "project_name": "CYGEN Equities Marketing Site Redesign",
+  "version": "2.0.0",
+  "theme_strategy": {
+    "default_theme": "dark",
+    "supported_themes": ["system", "dark", "light"],
+    "dark_mode_palette": {
+      "background_primary": "#07090f",
+      "background_card": "#0f1322",
+      "background_card_hover": "#161b2e",
+      "accent_gold": "#c9a84c",
+      "accent_gold_hover": "#dcb85c",
+      "text_primary": "#f4f0ea",
+      "text_secondary": "#a0a8c0",
+      "border_subtle": "rgba(201, 168, 76, 0.18)"
+    },
+    "light_mode_palette": {
+      "background_primary": "#ffffff",
+      "background_card": "#f8f9fa",
+      "background_card_hover": "#f1f3f5",
+      "accent_gold": "#b89333",
+      "accent_gold_hover": "#a27f29",
+      "text_primary": "#0f172a",
+      "text_secondary": "#475569",
+      "border_subtle": "#e2e8f0"
+    },
+    "light_theme_rule": "The light theme MUST remain predominantly white with crisp contrast, clean margins, and warm gold accents."
+  },
+  "brand_design_tokens": {
+    "card_border_radius": "10px",
+    "control_border_radius": "7px",
+    "focus_ring": "2px solid #c9a84c (focus:ring-2 focus:ring-[#c9a84c])",
+    "font_stack": "Barlow, Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+  },
+  "scrim_overlay_guidance": {
+    "dark_mode_scrim": "bg-gradient-to-t from-[#07090f] via-[#07090f]/75 to-transparent or bg-black/60 backdrop-blur-[2px]",
+    "light_mode_scrim": "bg-gradient-to-t from-black/80 via-black/50 to-transparent for white/gold text over photos",
+    "wcag_requirement": "Ensure text over photography maintains at least 4.5:1 APCA/WCAG 2.2 AA contrast ratio by employing directional gradient scrims and dark text shadow (`drop-shadow-md`). Never display un-scrimmed light text over light photo areas."
+  },
+  "hero_slideshow_specifications": {
+    "slide_count": 3,
+    "animation_type": "crossfade_ken_burns",
+    "duration_per_slide": 6000,
+    "transition_speed": 1200,
+    "controls": ["prev_next_arrows", "slide_indicator_dots", "play_pause_toggle"],
+    "ken_burns_effect": "scale-105 to scale-100 slow smooth zoom, disabled when prefers-reduced-motion is active",
+    "reduced_motion_fallback": "Instant or simple 200ms opacity crossfade without scale transformation"
+  },
+  "image_urls": {
+    "hero_slide_1": {
+      "url": "https://images.unsplash.com/photo-1758925403705-fa120346ad99?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjB2aWV3aW5nJTIwbmV3JTIwaG9tZSUyMGtleSUyMGRvb3J3YXklMjBwb3JjaHxlbnwwfHx8fDE3OTMyNDA2NTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Welcoming person sitting on front porch steps of a sunlit home, evoking human warmth and belonging.",
+      "page_context": "Home Page Hero Slide 1"
+    },
+    "hero_slide_2": {
+      "url": "https://images.unsplash.com/photo-1775501483887-45b762dce126?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHw0fHxjb3VwbGUlMjB2aWV3aW5nJTIwbmV3JTIwaG9tZSUyMGtleSUyMGRvb3J3YXklMjBwb3JjaHxlbnwwfHx8fDE3OTMyNDA2NTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Warm inviting entrance to a modern family home with potted greenery.",
+      "page_context": "Home Page Hero Slide 2"
+    },
+    "hero_slide_3": {
+      "url": "https://images.unsplash.com/flagged/photo-1564767609342-620cb19b2357?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxob21lb3duZXIlMjBmcm9udCUyMGRvb3IlMjBrZXl8ZW58MHx8fHwxNzkzMjQwNjYzfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Proud homeowner holding house keys in front of their front door entrance.",
+      "page_context": "Home Page Hero Slide 3"
+    },
+    "how_it_works_banner": {
+      "url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NTYxOTF8MHwxfHNlYXJjaHwyfHxwZW9wbGUlMjBtZWV0aW5nJTIwYWR2aXNvciUyMGRpc2N1c3Npb24lMjB3b3Jrc2hvcCUyMGNvbW11bml0eXxlbnwwfHx8fDE3OTMyNDA2NTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Collaborative human review story showing two people reviewing partnership documents together.",
+      "page_context": "How It Works Page Banner"
+    },
+    "refinance_banner": {
+      "url": "https://images.unsplash.com/photo-1758925403640-95e2a480c235?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxjb3VwbGUlMjB2aWV3aW5nJTIwbmV3JTIwaG9tZSUyMGtleSUyMGRvb3J3YXklMjBwb3JjaHxlbnwwfHx8fDE3OTMyNDA2NTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Proud homeowner sitting comfortably on porch steps of their home.",
+      "page_context": "Bring My Home / Refinance Page Banner"
+    },
+    "limited_partners_banner": {
+      "url": "https://images.unsplash.com/photo-1649083048770-82e8ffd80431?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA8Mzl8MHwxfHNlYXJjaHwzfHxmYW1pbHklMjBob21lJTIwbGl2aW5nJTIwcm9vbXxlbnwwfHx8fDE3OTMyNDA2NTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Warm living room hearth symbolizing solid long-term equity investment backed by real homes.",
+      "page_context": "For Limited Partners Page Banner"
+    },
+    "brokers_banner": {
+      "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMGhhbmRzaGFrZSUyMG1lZXRpbmd8ZW58MHx8fHwxNzkzMjQwNjYzfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Warm human handshake between trusted financial advisors and equity partners.",
+      "page_context": "For Brokers and Partners Page Banner"
+    },
+    "workshops_banner": {
+      "url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NTYxOTF8MHwxfHNlYXJjaHw0fHxwZW9wbGUlMjBtZWV0aW5nJTIwYWR2aXNvciUyMGRpc2N1c3Npb24lMjB3b3Jrc2hvcCUyMGNvbW11bml0eXxlbnwwfHx8fDE3OTMyNDA2NTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Interactive small group educational workshop session on equity homeownership.",
+      "page_context": "Workshops Page Banner"
+    },
+    "about_banner": {
+      "url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NTYxOTF8MHwxfHNlYXJjaHwzfHxwZW9wbGUlMjBtZWV0aW5nJTIwYWR2aXNvciUyMGRpc2N1c3Npb24lMjB3b3Jrc2hvcCUyMGNvbW11bml0eXxlbnwwfHx8fDE3OTMyNDA2NTl8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Diverse team and community gathering sharing a vision of equitable home equity.",
+      "page_context": "About Us Page Banner"
+    },
+    "contact_banner": {
+      "url": "https://images.unsplash.com/photo-1686771416282-3888ddaf249b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMGhhbmRzaGFrZSUyMG1lZXRpbmd8ZW58MHx8fHwxNzkzMjQwNjYzfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Friendly personalized conversation with a CYGEN representative.",
+      "page_context": "Contact Us Page Banner"
+    }
+  },
+  "per_page_visual_identity": {
+    "home": "Hero animated photography carousel with people + warm equity growth storytelling badges.",
+    "how_it_works": "Interactive step-by-step human review story with warm advisor imagery & process diagrams.",
+    "refinance": "Homeowner celebration graphics + before/after equity comparison cards.",
+    "limited_partners": "Institutional financial depth + high-density asset stability charts & family home visuals.",
+    "brokers": "Partner deal flow calculator + professional handshake visual storytelling.",
+    "workshops": "Event calendar cards with workshop photos + registration dialog.",
+    "faq": "Searchable bilingual FAQ accordions with quick contact badges.",
+    "about": "Mission timeline + team photos + community impact metrics.",
+    "contact": "Bilingual multi-step inquiry form + responsive location/contact details."
+  },
+  "instructions_to_main_agent": [
+    "Ensure all components use React JavaScript (.js / .jsx) files (do not use .tsx files).",
+    "Add explicit data-testid attributes to ALL buttons, links, form inputs, sliders, and navigation items (e.g., data-testid='hero-slide-next-button', data-testid='language-toggle-es').",
+    "Hero slider must auto-advance every 6 seconds with smooth crossfade and subtle Ken Burns zoom, and support manual pause/play controls.",
+    "Text overlaid on hero images or page banners MUST use a gradient scrim (e.g. from-black/80 via-black/40 to-transparent) so text is 100% readable (4.5:1 ratio) in both light and dark themes.",
+    "Maintain dark theme (#07090f) by default with gold (#c9a84c) accents and cream (#f4f0ea) text; in light theme, keep background predominantly crisp white (#ffffff).",
+    "Include EN/ES language switcher in navigation header.",
+    "Honor prefers-reduced-motion media query by disabling continuous pan/zoom animations in the hero slider."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Prioritize audience-focused warmth with real human photography across all page headers.",
+    "Avoid generic centered layouts; use asymmetric bento grids and layered depth.",
+    "Include micro-animations on interactive elements (hover lift, gold border glow).",
+    "All interactive elements MUST include data-testid attributes in kebab-case."
+  ]
+}

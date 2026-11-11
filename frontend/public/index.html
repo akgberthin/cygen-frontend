@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" class="dark">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script>
+            (function () {
+                try {
+                    var t = localStorage.getItem("cygen-theme") || "dark";
+                    var d = t === "dark" || (t === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+                    var c = document.documentElement;
+                    c.classList.remove("dark", "light");
+                    c.classList.add(d ? "dark" : "light");
+                    c.style.colorScheme = d ? "dark" : "light";
+                    var m = document.querySelector('meta[name="theme-color"]');
+                    if (m) m.setAttribute("content", d ? "#07090f" : "#f7f5f0");
+                } catch (e) {
+                    document.documentElement.classList.add("dark");
+                }
+            })();
+        </script>
+        <meta name="theme-color" content="#07090f" />
+        <meta name="description" content="CYGEN helps you become the full owner of the home you live in through an equity partnership, not a mortgage. A person reviews every application." />
+        <link rel="canonical" href="https://cygenequities.com/" />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.png" type="image/png" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="CYGEN Equities" />
+        <meta property="og:title" content="CYGEN Equities — Own the home you live in, through partnership" />
+        <meta property="og:description" content="CYGEN helps you become the full owner of the home you live in through an equity partnership, not a mortgage. A person reviews every application." />
+        <meta property="og:url" content="https://cygenequities.com/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale:alternate" content="es_ES" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="CYGEN Equities — Own the home you live in, through partnership" />
+        <meta name="twitter:description" content="CYGEN helps you become the full owner of the home you live in through an equity partnership, not a mortgage. A person reviews every application." />
+
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "CYGEN Equities",
+            "url": "https://cygenequities.com/",
+            "logo": "https://cygenequities.com/favicon.svg",
+            "description": "CYGEN is an equity partnership program that helps people become full owners of the home they live in. It is a partnership, not a mortgage product. A person at CYGEN reviews every application."
+        }
+        </script>
+
+        <title>CYGEN Equities — Own the home you live in, through partnership</title>
+        <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
+    </head>
+    <body>
+        <noscript>
+            <h1>CYGEN Equities — become the full owner of the home you live in</h1>
+            <p>CYGEN helps you become the full owner of your home through a partnership, not a mortgage. You live in the home as the Limited Partner; CYGEN's fund joins as the General Partner and supplies the capital. The home is held in a trust or SPV until your equity reaches 100%. A person at CYGEN reviews every application; nothing is decided by software alone.</p>
+            <p>Two ways to start: buy a home with CYGEN, or bring your current home and settle the existing financing. Figures on this site are illustrative. This site requires JavaScript for the full experience; visit https://cygenequities.com/en/ with JavaScript enabled.</p>
+        </noscript>
+        <div id="root"></div>
+
+    </body>
+</html>
