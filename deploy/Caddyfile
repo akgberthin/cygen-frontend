@@ -19,3 +19,19 @@
 www.{$DOMAIN:localhost} {
 	redir https://{$DOMAIN:localhost}{uri} permanent
 }
+
+# The CYGEN software (a separate stack on the same VM). Caddy reaches it over the external docker network "edge", which the
+# server's docker-compose.override.yml attaches to this service; the upstream names are resolved when a request arrives, so this
+# file is harmless where that stack or network does not exist.
+app.{$DOMAIN:localhost} {
+	encode zstd gzip
+	reverse_proxy cygen-web:3000
+}
+
+api.{$DOMAIN:localhost} {
+	encode zstd gzip
+	# /metrics has no credential in that stack: never expose it on the internet
+	@metrics path /metrics /metrics/*
+	respond @metrics 404
+	reverse_proxy cygen-api:8000
+}
