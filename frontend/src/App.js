@@ -23,7 +23,6 @@ import Contact from "./pages/Contact";
 import Apply from "./pages/Apply";
 import Legal from "./pages/Legal";
 import Admin from "./pages/Admin";
-import NotFound from "./pages/NotFound";
 import CmsGate from "./cms/CmsGate";
 import CmsCatchAll from "./cms/CatchAll";
 
