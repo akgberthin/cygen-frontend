@@ -2,7 +2,7 @@
  * Published CMS content for the public site.
  *
  * One module-level copy of the current release is shared by every page. It is seeded from sessionStorage (keyed by the release checksum) so that a visitor who already loaded it in this tab
- * sees the CMS page on first paint, and it is revalidated against /cms-api/release with If-None-Match at most every 60 s and whenever the window gains focus. The request has a short timeout.
+ * sees the CMS page on first paint, and it is revalidated against /cms-api/release with If-None-Match at most every 20 s and whenever the window gains focus. The request has a short timeout.
  * Nothing here ever throws to the caller: on any failure the last known copy is kept (or none), and the gate falls back to the built-in page.
  *
  * Kill switches: `?cms=off` in the URL (remembered in localStorage until `?cms=on`) and the build flag REACT_APP_CMS_PUBLISHED=0.
@@ -10,8 +10,8 @@
 const POINTER = "cygen-cms-release";
 const PREFIX = "cygen-cms-release:";
 const FLAG = "cygen-cms";
-const TIMEOUT_MS = 2500;
-const REVALIDATE_MS = 60000;
+const TIMEOUT_MS = 6000;
+const REVALIDATE_MS = 20000;
 
 let release = null; // { number, checksum, content }
 let seeded = false;
@@ -78,7 +78,7 @@ export function getRelease() {
   return release;
 }
 
-/** Revalidates against the API (at most every 60 s unless forced). Resolves in all cases. */
+/** Revalidates against the API (at most every 20 s unless forced; the browser's own cache is bypassed, the tag makes an unchanged answer cheap). Resolves in all cases. */
 export function refreshRelease(force = false) {
   getRelease();
   const now = Date.now();
@@ -89,7 +89,7 @@ export function refreshRelease(force = false) {
   const timer = setTimeout(() => ctl && ctl.abort(), TIMEOUT_MS);
   const headers = { Accept: "application/json" };
   if (release) headers["If-None-Match"] = `"${release.checksum}"`;
-  inflight = fetch("/cms-api/release", { headers, signal: ctl ? ctl.signal : undefined })
+  inflight = fetch("/cms-api/release", { headers, cache: "no-cache", signal: ctl ? ctl.signal : undefined })
     .then(async (r) => {
       if (r.status === 304) return;
       if (r.status === 404) {
