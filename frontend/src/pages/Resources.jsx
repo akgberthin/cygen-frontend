@@ -69,7 +69,8 @@ function CalendarActions({ ev, title, where, compact = false }) {
   );
 }
 
-export default function Resources() {
+/* Next event and the list of upcoming events (no section wrapper, so the page and the CMS page can both place it). */
+export function EventsCalendar({ title }) {
   const { t, lang } = useI18n();
   const [events, setEvents] = useState([]);
 
@@ -89,27 +90,8 @@ export default function Resources() {
   const fmtDate = (d) => new Intl.DateTimeFormat(lang, { dateStyle: "full" }).format(d);
   const fmtTime = (d) => new Intl.DateTimeFormat(lang, { timeStyle: "short" }).format(d);
 
-  const cards = [
-    { key: "how", path: "how-it-works" },
-    { key: "faq", path: "faq" },
-    { key: "calc", path: "", hash: "#compare" },
-  ];
-
   return (
-    <>
-      <Seo pageKey="resources" />
-      <PageBanner
-        image={IMAGES.about}
-        alt={t("banners.resources.alt")}
-        eyebrow="CYGEN"
-        title={t("resources.title")}
-        intro={t("resources.intro")}
-        caption={t("banners.resources.caption")}
-        testid="banner-resources"
-        variant="split"
-      />
-
-      <Section>
+      <>
         {next ? (
           <Reveal>
             <div className="card border-gold/50 bg-surface-2 p-6 sm:p-8" data-testid="resources-next-event">
@@ -150,7 +132,7 @@ export default function Resources() {
         )}
 
         <div className="mt-12">
-          <SectionTitle title={t("resources.eventsTitle")} />
+          <SectionTitle title={title || t("resources.eventsTitle")} />
           <ul className="mt-8 grid gap-4 md:grid-cols-2" data-testid="resources-events">
             {upcoming.map((ev) => {
               const { title, where, start } = eventMeta(ev, t);
@@ -174,6 +156,35 @@ export default function Resources() {
             })}
           </ul>
         </div>
+      </>
+  );
+}
+
+export default function Resources() {
+  const { t, lang } = useI18n();
+
+  const cards = [
+    { key: "how", path: "how-it-works" },
+    { key: "faq", path: "faq" },
+    { key: "calc", path: "", hash: "#compare" },
+  ];
+
+  return (
+    <>
+      <Seo pageKey="resources" />
+      <PageBanner
+        image={IMAGES.about}
+        alt={t("banners.resources.alt")}
+        eyebrow="CYGEN"
+        title={t("resources.title")}
+        intro={t("resources.intro")}
+        caption={t("banners.resources.caption")}
+        testid="banner-resources"
+        variant="split"
+      />
+
+      <Section>
+        <EventsCalendar />
 
         <div className="mt-16">
           <SectionTitle title={t("resources.cardsTitle")} />

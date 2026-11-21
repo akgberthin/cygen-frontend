@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { useI18n } from "../i18n/I18nContext";
 import { SITE_URL, switchLocalePath } from "../lib/links";
 
-function upsertMeta(attr, name, content) {
+export function upsertMeta(attr, name, content) {
   if (!content) return;
   let el = document.head.querySelector(`meta[${attr}="${name}"]`);
   if (!el) {
@@ -14,7 +14,7 @@ function upsertMeta(attr, name, content) {
   el.setAttribute("content", content);
 }
 
-function upsertLink(rel, href, extra = {}) {
+export function upsertLink(rel, href, extra = {}) {
   const key = extra.hreflang ? `${rel}:${extra.hreflang}` : rel;
   let el = document.head.querySelector(`link[data-seo="${key}"]`);
   if (!el) {

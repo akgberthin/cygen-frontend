@@ -9,6 +9,7 @@
 	}
 
 	# The CYGEN Website CMS (a separate stack, reached over the "edge" network): the signed draft preview and the uploaded pictures,
+	# (the published release at /cms-api/release keeps the ETag and Cache-Control the API sets: reverse_proxy passes them through unchanged),
 	# read only, at the site's own address so the browser makes no cross-site request. Nothing changes for visitors without a preview link.
 	@cmswrite not method GET HEAD
 	handle_path /cms-api/* {

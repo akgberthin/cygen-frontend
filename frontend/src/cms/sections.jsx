@@ -1,38 +1,21 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
-import { HandCoins, Handshake, Home as HomeIcon, KeyRound, Landmark, RefreshCcw, ShieldCheck, TrendingUp, UserCheck, Vault } from "lucide-react";
+import { KeyRound, RefreshCcw } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../components/ui/accordion";
 import ComparisonCalculator from "../components/ComparisonCalculator";
 import EquityEngine from "../components/EquityEngine";
 import HeroSlider from "../components/HeroSlider";
 import { CheckList, FeatureCard, PageBanner, Reveal, Section, SectionTitle } from "../components/Shared";
 import CmsLink from "./CmsLink";
+import { Arrow, Buttons, ICONS, rich } from "./shared";
+import { EXTRA, VARIANTS } from "./sections2";
 
 /* Draws one section of a CMS page with the website's own components and look. `ctx` holds the language, the media manifest and a text picker. */
 
-const ICONS = { "trending-up": TrendingUp, vault: Vault, handshake: Handshake, "hand-coins": HandCoins, "shield-check": ShieldCheck, landmark: Landmark, "user-check": UserCheck, home: HomeIcon };
 const PATH_ICONS = [KeyRound, RefreshCcw];
 
-const Arrow = () => <ArrowRight className="h-4 w-4" aria-hidden="true" />;
-
-function Buttons({ list, ctx, center }) {
-  const items = (list || []).filter((b) => b && b.url);
-  if (!items.length) return null;
-  return (
-    <div className={`mt-8 flex flex-col gap-3 sm:flex-row ${center ? "items-center justify-center" : ""}`}>
-      {items.map((b, i) => (
-        <CmsLink key={i} url={b.url} className={i === 0 ? "btn-primary" : "btn-outline"}>
-          {ctx.tx(b.label)}
-          <Arrow />
-        </CmsLink>
-      ))}
-    </div>
-  );
-}
-
-const rich = (html) => ({ __html: html || "" }); // the server cleans rich text with an allow-list before it is stored
-
 const REGISTRY = {
+  ...EXTRA,
+
   hero_slider(s, ctx) {
     const sl = s.resolved_slider;
     if (!sl) return null;
@@ -134,6 +117,8 @@ const REGISTRY = {
   },
 
   feature_cards(s, ctx) {
+    const alt = VARIANTS.feature_cards(s, ctx);
+    if (alt) return alt;
     const p = s.props;
     const cols = (s.style && s.style.layout) || "3-columns";
     const boxed = cols !== "2-columns";
@@ -168,6 +153,8 @@ const REGISTRY = {
   },
 
   steps(s, ctx) {
+    const alt = VARIANTS.steps(s, ctx);
+    if (alt) return alt;
     const p = s.props;
     const items = p.items || [];
     const layout = (s.style && s.style.layout) || "numbered";
@@ -241,6 +228,37 @@ const REGISTRY = {
     const p = s.props;
     const items = (p.items || []).map((it) => ({ q: ctx.tx(it.question), a: ctx.tx(it.answer) }));
     const limit = Number(p.limit) > 0 ? Number(p.limit) : items.length;
+    const indexed = p.numbered && !ctx.tx(p.title); // the FAQ page: a big question mark beside the numbered answers
+    const accordion = (
+      <Accordion type="single" collapsible className="w-full" data-testid="cms-faq-accordion">
+        {items.slice(0, limit).map((item, i) => (
+          <AccordionItem key={i} value={`item-${i}`} className="border-border">
+            <AccordionTrigger className="text-base font-medium text-cream hover:text-gold-text hover:no-underline">
+              <span className="flex items-baseline gap-4">
+                {p.numbered ? <span className="shrink-0 text-sm font-bold text-gold/70" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span> : null}
+                <span>{item.q}</span>
+              </span>
+            </AccordionTrigger>
+            <AccordionContent className={`text-sm leading-relaxed text-muted-foreground ${p.numbered ? "sm:pl-9" : ""}`}>
+              <div dangerouslySetInnerHTML={rich(item.a)} />
+            </AccordionContent>
+          </AccordionItem>
+        ))}
+      </Accordion>
+    );
+    if (indexed) {
+      return (
+        <Section className="!pt-0">
+          <div className="mt-12 grid gap-10 lg:grid-cols-[280px_1fr]">
+            <div className="relative hidden self-start lg:sticky lg:top-24 lg:block" aria-hidden="true">
+              <span className="block select-none text-[11rem] font-bold leading-none text-gold/15">?</span>
+              <span className="mt-2 block text-sm font-semibold text-muted-foreground">{items.length} · FAQ</span>
+            </div>
+            <Reveal className="max-w-3xl">{accordion}</Reveal>
+          </div>
+        </Section>
+      );
+    }
     return (
       <Section className="!pt-0">
         <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr] lg:items-start">
@@ -253,21 +271,7 @@ const REGISTRY = {
             ) : null}
           </Reveal>
           <Reveal delay={0.1}>
-            <Accordion type="single" collapsible className="w-full" data-testid="cms-faq-accordion">
-              {items.slice(0, limit).map((item, i) => (
-                <AccordionItem key={i} value={`item-${i}`} className="border-border">
-                  <AccordionTrigger className="text-base font-medium text-cream hover:text-gold-text hover:no-underline">
-                    <span className="flex items-baseline gap-4">
-                      {p.numbered ? <span className="shrink-0 text-sm font-bold text-gold/70" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span> : null}
-                      <span>{item.q}</span>
-                    </span>
-                  </AccordionTrigger>
-                  <AccordionContent className={`text-sm leading-relaxed text-muted-foreground ${p.numbered ? "sm:pl-9" : ""}`}>
-                    <div dangerouslySetInnerHTML={rich(item.a)} />
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
+            {accordion}
           </Reveal>
         </div>
       </Section>
@@ -275,6 +279,8 @@ const REGISTRY = {
   },
 
   cta_band(s, ctx) {
+    const alt = VARIANTS.cta_band(s, ctx);
+    if (alt) return alt;
     const p = s.props;
     return (
       <Section>
@@ -293,12 +299,18 @@ const REGISTRY = {
 
   page_banner(s, ctx) {
     const p = s.props;
+    const variant = (s.style && s.style.layout) || "left";
+    /* The rail banner counts its stages from the timeline further down the same page. */
+    const timeline = variant === "rail" && ctx.page ? (ctx.page.sections || []).find((x) => x.type === "steps" && x.style && x.style.layout === "timeline") : null;
+    const rail = timeline && timeline.props && Array.isArray(timeline.props.items) ? timeline.props.items.length : undefined;
     return (
-      <PageBanner image={ctx.media(p.image)} alt={ctx.tx(p.alt)} eyebrow={ctx.tx(p.eyebrow)} title={ctx.tx(p.title)} intro={ctx.tx(p.intro)} caption={ctx.tx(p.caption)} variant={(s.style && s.style.layout) || "left"} />
+      <PageBanner image={ctx.media(p.image)} alt={ctx.tx(p.alt)} eyebrow={ctx.tx(p.eyebrow)} title={ctx.tx(p.title)} intro={ctx.tx(p.intro)} caption={ctx.tx(p.caption)} icon={ICONS[p.icon]} rail={rail} variant={variant} />
     );
   },
 
   rich_text(s, ctx) {
+    const alt = VARIANTS.rich_text(s, ctx);
+    if (alt) return alt;
     const p = s.props;
     return (
       <Section>
@@ -315,9 +327,40 @@ function deviceClasses(devices) {
   return [d.mobile === false ? "max-md:hidden" : "", d.tablet === false ? "md:max-lg:hidden" : "", d.desktop === false ? "lg:hidden" : ""].filter(Boolean).join(" ");
 }
 
+const GAP = { sm: "1.5rem", md: "3rem", lg: "5rem", xl: "7rem" };
+const ALIGN_CLASS = { left: "text-left", center: "text-center", right: "text-right" };
+
+/** #rrggbb (or #rgb) as it is, token:name as the site's colour variable; anything else is ignored. */
+function colorOf(v) {
+  const c = String(v || "");
+  if (/^#[0-9a-fA-F]{3,8}$/.test(c)) return c;
+  const m = /^token:([a-z0-9-]{1,40})$/.exec(c);
+  return m ? `var(--c-${m[1]})` : "";
+}
+
+/** The class names and inline style a section's style overrides add to its wrapper (all optional, ignored when unknown). */
+function styleOverrides(style) {
+  const st = style && typeof style === "object" ? style : {};
+  const cls = [ALIGN_CLASS[st.align] || ""];
+  if (st.width === "narrow") cls.push("mx-auto max-w-3xl");
+  else if (st.width === "wide") cls.push("[&>section]:max-w-7xl");
+  else if (st.width === "full") cls.push("[&>section]:max-w-none");
+  const css = {};
+  if (st.padding_top === "none") cls.push("[&>section]:!pt-0");
+  else if (GAP[st.padding_top]) css.paddingTop = GAP[st.padding_top];
+  if (st.padding_bottom === "none") cls.push("[&>section]:!pb-0");
+  else if (GAP[st.padding_bottom]) css.paddingBottom = GAP[st.padding_bottom];
+  const bg = colorOf(st.background);
+  const fg = colorOf(st.text_color);
+  if (bg) css.backgroundColor = bg;
+  if (fg) css.color = fg;
+  return { className: cls.filter(Boolean).join(" "), style: Object.keys(css).length ? css : undefined };
+}
+
 export function CmsSections({ page, media, lang }) {
   const ctx = {
     lang,
+    page,
     tx: (v) => (v && typeof v === "object" ? v[lang] || v.en || "" : typeof v === "string" ? v : ""),
     media: (id) => {
       const m = id && media ? media[id] : null;
@@ -327,14 +370,16 @@ export function CmsSections({ page, media, lang }) {
   return (
     <>
       <h1 className="sr-only">{ctx.tx(page.title)}</h1>
-      {page.sections
+      {(page.sections || [])
         .filter((s) => s.enabled !== false)
         .map((s) => {
           const draw = REGISTRY[s.type];
-          const wrap = deviceClasses(s.devices);
+          const over = styleOverrides(s.style);
+          const wrap = [deviceClasses(s.devices), over.className].filter(Boolean).join(" ");
+          const safe = { ...s, props: s.props || {} };
           return (
-            <div key={s.section_id} className={wrap || undefined} data-cms-section={s.type}>
-              {draw ? draw(s, ctx) : (
+            <div key={s.section_id} className={wrap || undefined} style={over.style} data-cms-section={s.type}>
+              {draw ? draw(safe, ctx) : (
                 <div className="mx-auto my-6 max-w-6xl rounded-lg border border-dashed border-gold/40 px-4 py-6 text-sm text-dim">
                   Section type “{s.type}” is not drawn on the website yet.
                 </div>

@@ -163,7 +163,8 @@ export function Concierge({ path, step, scenario }) {
   );
 }
 
-export default function Apply() {
+/* The application wizard with the concierge beside it; the CMS page draws it too. */
+export function ApplyWizard() {
   const { t, lang } = useI18n();
   const [params] = useSearchParams();
   const navigate = useNavigate();
@@ -292,10 +293,6 @@ export default function Apply() {
   ];
 
   return (
-    <>
-      <Seo pageKey="apply" />
-      <TypeBanner eyebrow="CYGEN" title={t("apply.title")} intro={t("apply.intro")} ghost={t("common.apply")} testid="banner-apply" />
-
       <Section>
         {scenario?.figures && (
           <div className="card mb-8 border-gold/40 bg-surface-2 p-5" data-testid="apply-your-numbers">
@@ -505,6 +502,16 @@ export default function Apply() {
           <Concierge path={data.path} step={step} scenario={scenario} />
         </div>
       </Section>
+  );
+}
+
+export default function Apply() {
+  const { t } = useI18n();
+  return (
+    <>
+      <Seo pageKey="apply" />
+      <TypeBanner eyebrow="CYGEN" title={t("apply.title")} intro={t("apply.intro")} ghost={t("common.apply")} testid="banner-apply" />
+      <ApplyWizard />
     </>
   );
 }

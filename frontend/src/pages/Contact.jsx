@@ -9,7 +9,8 @@ import { IMAGES } from "../lib/images";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-export default function Contact() {
+/* The form block of the Contact page; the CMS page draws it too (it passes the texts it holds). */
+export function ContactForm({ neverAsk, title, intro }) {
   const { t, lang } = useI18n();
   const [params] = useSearchParams();
   const [form, setForm] = useState({
@@ -73,16 +74,17 @@ export default function Contact() {
   }
 
   return (
-    <>
-      <Seo pageKey="contact" />
-      <PageBanner image={IMAGES.contact} alt={t("banners.contact.alt")} eyebrow={t("nav.contact")} title={t("contact.title")} intro={t("contact.intro")} caption={t("banners.contact.caption")} icon={Mail} testid="banner-contact" variant="slim" />
       <Section>
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr]">
           <div>
-            <p className="flex max-w-md items-start gap-3 text-sm text-muted-foreground">
-              <ShieldCheck className="mt-0.5 h-5 w-5 shrink-0 text-gold-text" aria-hidden="true" />
-              {t("contact.neverAsk")}
-            </p>
+            {title ? <h2 className="mb-3 max-w-md text-2xl font-semibold tracking-tight">{title}</h2> : null}
+            {intro ? <p className="mb-5 max-w-md text-base text-muted-foreground">{intro}</p> : null}
+            {neverAsk ? (
+              <p className="flex max-w-md items-start gap-3 text-sm text-muted-foreground">
+                <ShieldCheck className="mt-0.5 h-5 w-5 shrink-0 text-gold-text" aria-hidden="true" />
+                {neverAsk}
+              </p>
+            ) : null}
           </div>
           <div className="card bg-surface-2 p-7 shadow-xl sm:p-9">
             {status === "success" ? (
@@ -150,6 +152,16 @@ export default function Contact() {
           </div>
         </div>
       </Section>
+  );
+}
+
+export default function Contact() {
+  const { t } = useI18n();
+  return (
+    <>
+      <Seo pageKey="contact" />
+      <PageBanner image={IMAGES.contact} alt={t("banners.contact.alt")} eyebrow={t("nav.contact")} title={t("contact.title")} intro={t("contact.intro")} caption={t("banners.contact.caption")} icon={Mail} testid="banner-contact" variant="slim" />
+      <ContactForm neverAsk={t("contact.neverAsk")} />
     </>
   );
 }

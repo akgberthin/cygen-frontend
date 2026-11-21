@@ -6,7 +6,8 @@ import { useI18n } from "../i18n/I18nContext";
 import { apiFetch, apiPath, apiUrl } from "../lib/api";
 import { IMAGES } from "../lib/images";
 
-export default function Workshops() {
+/* The workshop list with the registration form; the CMS page draws it too (formTitle overrides the form heading). */
+export function WorkshopsPanel({ formTitle }) {
   const { t, lang } = useI18n();
   const [workshops, setWorkshops] = useState([]);
   const [form, setForm] = useState({ workshop_id: "", name: "", email: "", phone: "", preferred_language: lang, website: "" });
@@ -65,10 +66,7 @@ export default function Workshops() {
   };
 
   return (
-    <>
-      <Seo pageKey="workshops" />
-      <PageBanner image={IMAGES.workshops} alt={t("banners.workshops.alt")} eyebrow={t("nav.workshops")} title={t("workshops.title")} intro={t("workshops.intro")} caption={t("banners.workshops.caption")} icon={GraduationCap} testid="banner-workshops" variant="ticket" />
-
+      <>
       {/* Identity: an agenda — ticket-style date rows with a sticky registration rail */}
       <Section>
         <div className="grid gap-10 lg:grid-cols-[1.5fr_1fr]">
@@ -117,7 +115,7 @@ export default function Workshops() {
                 </div>
               ) : (
                 <form onSubmit={submit}>
-                  <SectionTitle title={t("workshops.form.title")} />
+                  <SectionTitle title={formTitle || t("workshops.form.title")} />
                   <div className="mt-6 grid gap-5">
                     <div>
                       <label htmlFor="ws-workshop" className="field-label">{t("workshops.form.workshopLabel")}</label>
@@ -170,6 +168,17 @@ export default function Workshops() {
           </div>
         </div>
       </Section>
+      </>
+  );
+}
+
+export default function Workshops() {
+  const { t } = useI18n();
+  return (
+    <>
+      <Seo pageKey="workshops" />
+      <PageBanner image={IMAGES.workshops} alt={t("banners.workshops.alt")} eyebrow={t("nav.workshops")} title={t("workshops.title")} intro={t("workshops.intro")} caption={t("banners.workshops.caption")} icon={GraduationCap} testid="banner-workshops" variant="ticket" />
+      <WorkshopsPanel />
     </>
   );
 }
