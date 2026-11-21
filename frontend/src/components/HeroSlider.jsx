@@ -4,6 +4,7 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { useI18n } from "../i18n/I18nContext";
 import { IMAGES } from "../lib/images";
 import { applyUrl } from "../lib/links";
+import CmsLink from "../cms/CmsLink";
 
 const SLIDE_PATHS = [null, "purchase", "refinance"];
 const HERO_MEDIA = [
@@ -53,10 +54,11 @@ function MaskedWords({ text, reduce }) {
   );
 }
 
-export default function HeroSlider() {
+/* `data` (from the CMS): { seconds, note, slides: [{ src, alt, eyebrow, title, text, buttons: [{ label, url }] }] }. Without it the slides come from the built-in texts. */
+export default function HeroSlider({ data }) {
   const { t } = useI18n();
-  const slides = t("home.slides");
-  const alts = t("home.slideAlts");
+  const slides = data ? data.slides : t("home.slides");
+  const alts = data ? data.slides.map((s) => s.alt) : t("home.slideAlts");
   const reduce = useReducedMotion();
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -68,14 +70,15 @@ export default function HeroSlider() {
   const contentOpacity = useTransform(scrollYProgress, [0, 0.75], [1, 0]);
 
   useEffect(() => {
-    if (reduce || paused) return undefined;
-    const id = setInterval(() => setIndex((i) => (i + 1) % slides.length), 7000);
+    const ms = data ? (Number(data.seconds) || 0) * 1000 : 7000;
+    if (reduce || paused || !ms || slides.length < 2) return undefined;
+    const id = setInterval(() => setIndex((i) => (i + 1) % slides.length), ms);
     return () => clearInterval(id);
-  }, [reduce, paused, slides.length]);
+  }, [reduce, paused, slides.length, data]);
 
   const go = useCallback((i) => setIndex(((i % slides.length) + slides.length) % slides.length), [slides.length]);
   const slide = slides[index];
-  const media = HERO_MEDIA[index];
+  const media = data ? { type: "image", src: slide.src } : HERO_MEDIA[index];
   const path = SLIDE_PATHS[index];
 
   return (
@@ -159,7 +162,14 @@ export default function HeroSlider() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
             >
-              {index === 0 ? (
+              {data ? (
+                (slide.buttons || []).map((b, bi) => (
+                  <CmsLink key={bi} url={b.url} className={bi === 0 ? "btn-primary" : ghostBtn}>
+                    {b.label}
+                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  </CmsLink>
+                ))
+              ) : index === 0 ? (
                 <>
                   <HeroLink path="purchase" label={t("home.hero.ctaBuy")} variant="primary" testid="hero-cta-buy" />
                   <HeroLink path="refinance" label={t("home.hero.ctaBring")} variant="ghost" testid="hero-cta-bring" />
@@ -170,7 +180,7 @@ export default function HeroSlider() {
             </motion.div>
           </motion.div>
         </AnimatePresence>
-        <p className="mt-9 max-w-xl text-xs text-[#a0b1c4]">{t("home.hero.note")}</p>
+        <p className="mt-9 max-w-xl text-xs text-[#a0b1c4]">{data ? data.note : t("home.hero.note")}</p>
 
         <div className="mt-10 flex items-center gap-4">
           <div className="flex gap-2">

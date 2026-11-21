@@ -8,6 +8,20 @@
 		}
 	}
 
+	# The CYGEN Website CMS (a separate stack, reached over the "edge" network): the signed draft preview and the uploaded pictures,
+	# read only, at the site's own address so the browser makes no cross-site request. Nothing changes for visitors without a preview link.
+	@cmswrite not method GET HEAD
+	handle_path /cms-api/* {
+		respond @cmswrite 405
+		rewrite * /v1/public/cms{uri}
+		reverse_proxy cygen-api:8000
+	}
+	handle_path /cms-media/* {
+		respond @cmswrite 405
+		rewrite * /v1/public/cms/media{uri}
+		reverse_proxy cygen-api:8000
+	}
+
 	# Everything else is the single-page app.
 	handle {
 		root * /srv

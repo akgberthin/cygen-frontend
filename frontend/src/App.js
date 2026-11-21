@@ -24,6 +24,7 @@ import Apply from "./pages/Apply";
 import Legal from "./pages/Legal";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
+import CmsGate from "./cms/CmsGate";
 
 function LangRedirect() {
   return <Navigate to={`/${detectLocale()}`} replace />;
@@ -59,23 +60,23 @@ export default function App() {
             <Route path="/" element={<LangRedirect />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/:lang" element={<Layout />}>
-              <Route index element={<Home />} />
-              <Route path="how-it-works" element={<HowItWorks />} />
-              <Route path="refinance" element={<Refinance />} />
-              <Route path="limited-partners" element={<LimitedPartners />} />
-              <Route path="brokers" element={<Brokers />} />
-              <Route path="workshops" element={<Workshops />} />
-              <Route path="faq" element={<Faq />} />
-              <Route path="about" element={<About />} />
-              <Route path="about/team" element={<Team />} />
-              <Route path="about/philosophy" element={<Philosophy />} />
-              <Route path="about/impact" element={<Impact />} />
-              <Route path="about/resources" element={<Resources />} />
-              <Route path="contact" element={<Contact />} />
-              <Route path="apply" element={<Apply />} />
+              <Route index element={<CmsGate slug=""><Home /></CmsGate>} />
+              <Route path="how-it-works" element={<CmsGate slug="how-it-works"><HowItWorks /></CmsGate>} />
+              <Route path="refinance" element={<CmsGate slug="refinance"><Refinance /></CmsGate>} />
+              <Route path="limited-partners" element={<CmsGate slug="limited-partners"><LimitedPartners /></CmsGate>} />
+              <Route path="brokers" element={<CmsGate slug="brokers"><Brokers /></CmsGate>} />
+              <Route path="workshops" element={<CmsGate slug="workshops"><Workshops /></CmsGate>} />
+              <Route path="faq" element={<CmsGate slug="faq"><Faq /></CmsGate>} />
+              <Route path="about" element={<CmsGate slug="about"><About /></CmsGate>} />
+              <Route path="about/team" element={<CmsGate slug="about/team"><Team /></CmsGate>} />
+              <Route path="about/philosophy" element={<CmsGate slug="about/philosophy"><Philosophy /></CmsGate>} />
+              <Route path="about/impact" element={<CmsGate slug="about/impact"><Impact /></CmsGate>} />
+              <Route path="about/resources" element={<CmsGate slug="about/resources"><Resources /></CmsGate>} />
+              <Route path="contact" element={<CmsGate slug="contact"><Contact /></CmsGate>} />
+              <Route path="apply" element={<CmsGate slug="apply"><Apply /></CmsGate>} />
               <Route path="register" element={<Register />} />
               <Route path="account" element={<Account />} />
-              <Route path="legal" element={<Legal />} />
+              <Route path="legal" element={<CmsGate slug="legal"><Legal /></CmsGate>} />
               <Route path="*" element={<NotFound />} />
             </Route>
             <Route path="*" element={<LangRedirect />} />
