@@ -25,6 +25,7 @@ import Legal from "./pages/Legal";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 import CmsGate from "./cms/CmsGate";
+import CmsCatchAll from "./cms/CatchAll";
 
 function LangRedirect() {
   return <Navigate to={`/${detectLocale()}`} replace />;
@@ -77,7 +78,7 @@ export default function App() {
               <Route path="register" element={<Register />} />
               <Route path="account" element={<Account />} />
               <Route path="legal" element={<CmsGate slug="legal"><Legal /></CmsGate>} />
-              <Route path="*" element={<NotFound />} />
+              <Route path="*" element={<CmsCatchAll />} />
             </Route>
             <Route path="*" element={<LangRedirect />} />
           </Routes>
