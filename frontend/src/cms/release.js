@@ -5,7 +5,7 @@
  * sees the CMS page on first paint, and it is revalidated against /cms-api/release with If-None-Match at most every 20 s and whenever the window gains focus. The request has a short timeout.
  * Nothing here ever throws to the caller: on any failure the last known copy is kept (or none), and the gate falls back to the built-in page.
  *
- * Kill switches: `?cms=off` in the URL (remembered in localStorage until `?cms=on`) and the build flag REACT_APP_CMS_PUBLISHED=0.
+ * Kill switches: `?cms=off` in the URL (remembered for this tab only until `?cms=on`) and the build flag REACT_APP_CMS_PUBLISHED=0.
  */
 const POINTER = "cygen-cms-release";
 const PREFIX = "cygen-cms-release:";
@@ -24,9 +24,10 @@ export function cmsPublishedEnabled() {
   if (process.env.REACT_APP_CMS_PUBLISHED === "0") return false;
   try {
     const q = new URLSearchParams(window.location.search).get("cms");
-    if (q === "off") window.localStorage.setItem(FLAG, "off");
-    else if (q === "on") window.localStorage.removeItem(FLAG);
-    return window.localStorage.getItem(FLAG) !== "off";
+    if (q === "off") window.sessionStorage.setItem(FLAG, "off");
+    else if (q === "on") window.sessionStorage.removeItem(FLAG);
+    window.localStorage.removeItem(FLAG); // an older build kept the switch for good: never again
+    return window.sessionStorage.getItem(FLAG) !== "off";
   } catch (e) {
     return true;
   }

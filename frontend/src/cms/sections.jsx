@@ -31,7 +31,13 @@ const REGISTRY = {
         buttons: (x.buttons || []).map((b) => ({ label: ctx.tx(b.label), url: b.url })),
       })),
     };
-    return <HeroSlider data={data} />;
+    const heading = ctx.tx(s.props && s.props.heading);
+    return (
+      <>
+        {heading ? <h1 className="sr-only">{heading}</h1> : null}
+        <HeroSlider data={data} />
+      </>
+    );
   },
 
   values_marquee(s, ctx) {
@@ -357,6 +363,12 @@ function styleOverrides(style) {
   return { className: cls.filter(Boolean).join(" "), style: Object.keys(css).length ? css : undefined };
 }
 
+/** A page needs exactly one h1: sections that draw their own (a banner, a page header, the Home hero heading) provide it, otherwise the page title is used (hidden). */
+const OWN_H1 = new Set(["page_banner", "type_banner", "page_header"]);
+function hasHeading(page) {
+  return (page.sections || []).some((s) => s.enabled !== false && (OWN_H1.has(s.type) || (s.type === "hero_slider" && s.props && s.props.heading)));
+}
+
 export function CmsSections({ page, media, lang }) {
   const ctx = {
     lang,
@@ -369,7 +381,7 @@ export function CmsSections({ page, media, lang }) {
   };
   return (
     <>
-      <h1 className="sr-only">{ctx.tx(page.title)}</h1>
+      {hasHeading(page) ? null : <h1 className="sr-only">{ctx.tx(page.title)}</h1>}
       {(page.sections || [])
         .filter((s) => s.enabled !== false)
         .map((s) => {
